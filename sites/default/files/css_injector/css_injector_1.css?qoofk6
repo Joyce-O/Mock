@@ -1,0 +1,164 @@
+.crm-container,
+.crm-container table {
+	font-size: 15px !important;
+}
+.crm-container.crm-public .content {
+	font-size: 16px;
+	line-height: 26px;
+}
+.crm-container.crm-public .crm-section {
+	margin: 0 0 1em 0 !important;
+	overflow: hidden;
+	font-size: 1em !important;
+}
+.crm-container.crm-public .crm-section:last-child {
+	margin: 0 !important;
+}
+.crm-container.crm-public .crm-section.crm-socialnetwork:last-child {
+    margin-top: 25px !important;
+}
+.crm-container.crm-public .crm-section#intro_text {
+	margin-bottom: 2em !important;
+}
+.crm-container.crm-public .crm-section .label,
+.crm-container.crm-public .crm-section .content {
+	display: block;
+	float: none;
+	margin: 0;
+	padding: 0 !important;
+	text-align: left;
+	width: auto;
+	margin-bottom: 0.5em;
+	color: #515151;
+	font-weight: normal;
+}
+.crm-container.crm-public .crm-section label {
+	font-weight: bold;
+}
+#printer-friendly,
+.iCal_links-section,
+.crm-i {
+	display: none;
+}
+.crm-container.crm-public fieldset {
+	padding: 0;
+	margin: 0;
+	border: 0 none;
+}
+.crm-container.crm-public fieldset legend {
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+	font-size: 24px;
+    padding: 0;
+	margin: 0 0 16px 0;
+    border: 0 none;
+    background-color: transparent;
+    color: #515151;
+    width: auto;	
+}
+.crm-container.crm-public input,
+.crm-container.crm-public textarea {
+	box-sizing: border-box;
+	max-width: 100%;
+}
+.crm-container.crm-public input[type="text"], 
+.crm-container.crm-publicinput[type="password"], 
+.crm-container.crm-public input[type="email"] {
+	height: auto;
+	max-width: 95% !important;
+}
+.crm-container.crm-public a.button, 
+.crm-container.crm-public a.button:link, 
+.crm-container.crm-public a.button:visited, 
+.crm-container.crm-public input.crm-form-submit, 
+.crm-container.crm-public .ui-dialog-buttonset .ui-button, 
+.crm-container.crm-public input[type=button], 
+.crm-container.crm-public .crm-button {
+	text-shadow: 0 0 0 transparent;
+	background-image: none;
+	background-color: #5d538b;
+	color: #fff;
+	font-size: 15px;
+	font-weight: bold;
+	padding: 13px 15px !important;
+	border: 0 none;
+	cursor: pointer;
+}
+.crm-container.crm-public .crm-button input.crm-form-submit {
+	padding: 0 !important;
+}
+.crm-container.crm-public span.crm-button {
+	line-height: 1.5;
+}
+.crm-container.crm-public .crm-button input[type=button], 
+.crm-container.crm-public .crm-button input.crm-form-submit {
+	padding: 3px 5px;
+}
+.crm-container.crm-public a.button:hover, 
+.crm-container.crm-public a.button:hover, 
+.crm-container.crm-public .ui-dialog-buttonset .ui-button:hover, 
+.crm-container.crm-public input[type=button]:hover, 
+.crm-container.crm-public .crm-button:hover, 
+.crm-container.crm-public input.crm-form-submit:hover {
+	background-color: #756ba6;
+}
+.crm-container.crm-public .crm-button input.crm-form-submit,
+.crm-container.crm-public .crm-button input.crm-form-submit:hover {
+	background-color: transparent;
+}
+.crm-container.crm-public .select2-container .select2-choice {
+	height: 38px;
+}
+.crm-container.crm-public input[type="radio"] {
+    width: 15px;
+    height: 15px;
+    margin: 2px 0 0 2px;
+}
+.crm-container.crm-public input[type="radio"]:not(:first-child) {
+	margin-left: 12px;
+}
+.crm-container.crm-public input[type="checkbox"] { 
+    width: 16px;
+    height: 16px;
+    margin: 0px 4px 0 0;
+    vertical-align: middle;
+}
+.crm-container.crm-public #priceset-div {
+	padding-top: 0;
+}
+.crm-container.crm-public .membership_amount-section .label:first-of-type,
+.crm-container.crm-public .is_for_organization-section .label:first-of-type {
+	display: none;
+}
+.crm-container.crm-public .custom_post_profile-group {
+	margin-top: 2em;
+}
+abbr[title], 
+abbr[data-original-title] {
+    cursor: auto;
+    border-bottom: 0 none;
+    text-decoration: none;
+}
+.crm-fb-tweet-buttons {
+	margin-top: 25px;
+}
+.crm-fb-tweet-buttons .label {
+    width: auto !important;
+    display: inline-block !important;
+    margin-right: 15px !important;
+	vertical-align: top;
+}
+.crm-container .help, 
+.crm-container #help,
+.crm-container .status {
+    background-color: transparent;
+    border: 1px dotted #66b7e7;
+    color: #999;
+    margin: 0 0 20px;
+    padding: 5px 10px;
+}
+#crm-submit-buttons {
+	width: 100%;
+	overflow: hidden;
+	height: auto !important;
+}

@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+  <!--[if IEMobile 7]><html class="no-js ie iem7" lang="en" dir="ltr"><![endif]-->
+  <!--[if lte IE 6]><html class="no-js ie lt-ie9 lt-ie8 lt-ie7" lang="en" dir="ltr"><![endif]-->
+  <!--[if (IE 7)&(!IEMobile)]><html class="no-js ie lt-ie9 lt-ie8" lang="en" dir="ltr"><![endif]-->
+  <!--[if IE 8]><html class="no-js ie lt-ie9" lang="en" dir="ltr"><![endif]-->
+  <!--[if (gte IE 9)|(gt IEMobile 7)]><html class="no-js ie" lang="en" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/ dc: http://purl.org/dc/terms/ foaf: http://xmlns.com/foaf/0.1/ og: http://ogp.me/ns# rdfs: http://www.w3.org/2000/01/rdf-schema# sioc: http://rdfs.org/sioc/ns# sioct: http://rdfs.org/sioc/types# skos: http://www.w3.org/2004/02/skos/core# xsd: http://www.w3.org/2001/XMLSchema#"><![endif]-->
+  <!--[if !IE]><!--><html class="no-js" lang="en" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/ dc: http://purl.org/dc/terms/ foaf: http://xmlns.com/foaf/0.1/ og: http://ogp.me/ns# rdfs: http://www.w3.org/2000/01/rdf-schema# sioc: http://rdfs.org/sioc/ns# sioct: http://rdfs.org/sioc/types# skos: http://www.w3.org/2004/02/skos/core# xsd: http://www.w3.org/2001/XMLSchema#"><!--<![endif]-->
+<head>
+  <meta charset="utf-8" />
+<link rel="shortcut icon" href="https://www.nutritionsociety.org/sites/default/files/favicon.png" type="image/png" />
+<link rel="profile" href="http://www.w3.org/1999/xhtml/vocab" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="MobileOptimized" content="width" />
+<meta http-equiv="cleartype" content="on" />
+<link rel="apple-touch-icon-precomposed" href="https://www.nutritionsociety.org/sites/all/themes/nutrition_society/apple-touch-icon-precomposed-144x144.png" sizes="144x144" />
+<link rel="apple-touch-icon-precomposed" href="https://www.nutritionsociety.org/sites/all/themes/nutrition_society/apple-touch-icon-precomposed-114x114.png" sizes="114x114" />
+<link rel="apple-touch-icon-precomposed" href="https://www.nutritionsociety.org/sites/all/themes/nutrition_society/apple-touch-icon-precomposed-72x72.png" sizes="72x72" />
+<link rel="apple-touch-icon-precomposed" href="https://www.nutritionsociety.org/sites/all/themes/nutrition_society/apple-touch-icon-precomposed.png" />
+<meta name="description" content="Our website uses cookies to distinguish you from other users of our website. This helps us to provide you with a good experience when you browse our website and also allows us to improve our site. By continuing to browse the site, you are agreeing to our use of cookies. A cookie is a small file of letters and numbers stored on your browser or the hard drive of your computer in order to enhance your experience and to provide functionality on the website. We use the following cookies:" />
+<meta name="viewport" content="width=device-width" />
+<meta name="generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="https://www.nutritionsociety.org/cookie-policy" />
+<link rel="shortlink" href="https://www.nutritionsociety.org/node/289" />
+  <title>Cookie Policy | The Nutrition Society</title>
+  <style>
+@import url("https://www.nutritionsociety.org/sites/all/themes/omega/omega/css/modules/system/system.base.css?qoofk6");
+@import url("https://www.nutritionsociety.org/sites/all/themes/omega/omega/css/modules/system/system.menus.theme.css?qoofk6");
+@import url("https://www.nutritionsociety.org/sites/all/themes/omega/omega/css/modules/system/system.messages.theme.css?qoofk6");
+@import url("https://www.nutritionsociety.org/sites/all/themes/omega/omega/css/modules/system/system.theme.css?qoofk6");
+@import url("https://www.nutritionsociety.org/sites/all/modules/date/date_api/date.css?qoofk6");
+@import url("https://www.nutritionsociety.org/sites/all/modules/date/date_popup/themes/datepicker.1.7.css?qoofk6");
+@import url("https://www.nutritionsociety.org/sites/all/themes/omega/omega/css/modules/aggregator/aggregator.theme.css?qoofk6");
+@import url("https://www.nutritionsociety.org/sites/all/modules/logintoboggan/logintoboggan.css?qoofk6");
+@import url("https://www.nutritionsociety.org/modules/node/node.css?qoofk6");
+@import url("https://www.nutritionsociety.org/sites/all/themes/omega/omega/css/modules/field/field.theme.css?qoofk6");
+@import url("https://www.nutritionsociety.org/sites/all/modules/webform_workflow/includes/webform_workflow.css?qoofk6");
+@import url("https://www.nutritionsociety.org/sites/all/modules/workflow/workflow_admin_ui/workflow_admin_ui.css?qoofk6");
+@import url("https://www.nutritionsociety.org/sites/all/themes/omega/omega/css/modules/search/search.theme.css?qoofk6");
+@import url("https://www.nutritionsociety.org/sites/all/modules/views/css/views.css?qoofk6");
+@import url("https://www.nutritionsociety.org/sites/all/themes/omega/omega/css/modules/user/user.base.css?qoofk6");
+@import url("https://www.nutritionsociety.org/sites/all/themes/omega/omega/css/modules/user/user.theme.css?qoofk6");
+@import url("https://www.nutritionsociety.org/sites/all/modules/media/modules/media_wysiwyg/css/media_wysiwyg.base.css?qoofk6");
+</style>
+<style>
+@import url("https://www.nutritionsociety.org/sites/all/modules/colorbox/styles/default/colorbox_style.css?qoofk6");
+@import url("https://www.nutritionsociety.org/sites/all/modules/ctools/css/ctools.css?qoofk6");
+@import url("https://www.nutritionsociety.org/sites/all/modules/custom_search/custom_search.css?qoofk6");
+@import url("https://www.nutritionsociety.org/sites/all/modules/nice_menus/css/nice_menus.css?qoofk6");
+@import url("https://www.nutritionsociety.org/sites/all/modules/nice_menus/css/nice_menus_default.css?qoofk6");
+@import url("https://www.nutritionsociety.org/sites/all/modules/responsive_menus/styles/responsive_menus_simple/css/responsive_menus_simple.css?qoofk6");
+@import url("https://www.nutritionsociety.org/sites/all/modules/eu_cookie_compliance/css/eu_cookie_compliance.css?qoofk6");
+@import url("https://www.nutritionsociety.org/sites/all/modules/civicrm/css/crm-i.css?qoofk6");
+@import url("https://www.nutritionsociety.org/sites/all/modules/civicrm/css/civicrm.css?qoofk6");
+@import url("https://www.nutritionsociety.org/sites/default/files/ctools/css/e1a17038983968156ee26d78ec059ee0.css?qoofk6");
+</style>
+<style>
+@import url("https://www.nutritionsociety.org/sites/all/themes/nutrition_society/css/nutrition-society.normalize.css?qoofk6");
+@import url("https://www.nutritionsociety.org/sites/all/themes/nutrition_society/css/nutrition-society.hacks.css?qoofk6");
+@import url("https://www.nutritionsociety.org/sites/all/themes/nutrition_society/css/nutrition-society.styles.css?qoofk6");
+@import url("https://www.nutritionsociety.org/sites/all/themes/nutrition_society/css/style.new.css?qoofk6");
+</style>
+
+<!--[if lte IE 8]>
+<style>
+@import url("https://www.nutritionsociety.org/sites/all/themes/nutrition_society/css/nutrition-society.no-query.css?qoofk6");
+</style>
+<![endif]-->
+<style>
+@import url("https://www.nutritionsociety.org/sites/default/files/css_injector/css_injector_1.css?qoofk6");
+@import url("https://www.nutritionsociety.org/sites/default/files/css_injector/css_injector_2.css?qoofk6");
+</style>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script>window.jQuery || document.write("<script src='/sites/all/modules/jquery_update/replace/jquery/1.7/jquery.min.js'>\x3C/script>")</script>
+<script src="https://www.nutritionsociety.org/misc/jquery-extend-3.4.0.js?v=1.7.2"></script>
+<script src="https://www.nutritionsociety.org/misc/jquery-html-prefilter-3.5.0-backport.js?v=1.7.2"></script>
+<script src="https://www.nutritionsociety.org/misc/jquery.once.js?v=1.2"></script>
+<script src="https://www.nutritionsociety.org/misc/drupal.js?qoofk6"></script>
+<script src="https://www.nutritionsociety.org/sites/all/themes/omega/omega/js/no-js.js?qoofk6"></script>
+<script src="https://www.nutritionsociety.org/sites/all/modules/nice_menus/js/jquery.bgiframe.js?v=2.1"></script>
+<script src="https://www.nutritionsociety.org/sites/all/modules/nice_menus/js/jquery.hoverIntent.js?v=0.5"></script>
+<script src="https://www.nutritionsociety.org/sites/all/modules/nice_menus/js/superfish.js?v=1.4.8"></script>
+<script src="https://www.nutritionsociety.org/sites/all/modules/nice_menus/js/nice_menus.js?v=1.0"></script>
+<script src="https://www.nutritionsociety.org/sites/all/modules/eu_cookie_compliance/js/jquery.cookie-1.4.1.min.js?v=1.4.1"></script>
+<script src="https://www.nutritionsociety.org/sites/all/modules/jquery_update/replace/misc/jquery.form.min.js?v=2.69"></script>
+<script src="https://www.nutritionsociety.org/misc/ajax.js?v=7.78"></script>
+<script src="https://www.nutritionsociety.org/sites/all/modules/jquery_update/js/jquery_update.js?v=0.0.1"></script>
+<script src="https://www.nutritionsociety.org/sites/all/modules/nutrition_custom/js/nutrition_custom.js?qoofk6"></script>
+<script src="https://www.nutritionsociety.org/sites/all/libraries/colorbox/jquery.colorbox-min.js?qoofk6"></script>
+<script src="https://www.nutritionsociety.org/sites/all/modules/colorbox/js/colorbox.js?qoofk6"></script>
+<script src="https://www.nutritionsociety.org/sites/all/modules/colorbox/styles/default/colorbox_style.js?qoofk6"></script>
+<script src="https://www.nutritionsociety.org/sites/all/modules/custom_search/js/custom_search.js?qoofk6"></script>
+<script>var switchTo5x = true;var __st_loadLate = true;</script>
+<script src="https://ws.sharethis.com/button/buttons.js"></script>
+<script>if (stLight !== undefined) { stLight.options({"publisher":"dr-a3e08c92-470d-f40-763d-e3da1bbfa01","version":"5x","onhover":false}); }</script>
+<script src="https://www.nutritionsociety.org/sites/all/modules/views/js/base.js?qoofk6"></script>
+<script src="https://www.nutritionsociety.org/misc/progress.js?v=7.78"></script>
+<script src="https://www.nutritionsociety.org/sites/all/modules/views/js/ajax_view.js?qoofk6"></script>
+<script src="https://www.nutritionsociety.org/sites/all/modules/responsive_menus/styles/responsive_menus_simple/js/responsive_menus_simple.js?qoofk6"></script>
+<script src="https://www.nutritionsociety.org/sites/all/modules/google_analytics/googleanalytics.js?qoofk6"></script>
+<script>(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","https://www.google-analytics.com/analytics.js","ga");ga("create", "UA-4398902-1", {"cookieDomain":"auto"});ga("set", "anonymizeIp", true);ga("send", "pageview");</script>
+<script src="https://www.nutritionsociety.org/sites/all/themes/nutrition_society/js/nutrition-society.behaviors.js?qoofk6"></script>
+<script src="https://www.nutritionsociety.org/sites/all/themes/nutrition_society/js/fix-slick-slider-arrows.js?qoofk6"></script>
+<script src="https://www.nutritionsociety.org/sites/all/themes/nutrition_society/js/custom.js?qoofk6"></script>
+<script src="https://www.nutritionsociety.org/sites/all/themes/nutrition_society/js/member-area.js?qoofk6"></script>
+<script>jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"nutrition_society","theme_token":"TnZkwHYq_gEHpbjWBb06anKnCzobwTJlceEd18m-wro","jquery_version":"1.7","js":{"0":1,"sites\/all\/modules\/eu_cookie_compliance\/js\/eu_cookie_compliance.js":1,"\/\/ajax.googleapis.com\/ajax\/libs\/jquery\/1.7.2\/jquery.min.js":1,"1":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery-html-prefilter-3.5.0-backport.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/themes\/omega\/omega\/js\/no-js.js":1,"sites\/all\/modules\/nice_menus\/js\/jquery.bgiframe.js":1,"sites\/all\/modules\/nice_menus\/js\/jquery.hoverIntent.js":1,"sites\/all\/modules\/nice_menus\/js\/superfish.js":1,"sites\/all\/modules\/nice_menus\/js\/nice_menus.js":1,"sites\/all\/modules\/eu_cookie_compliance\/js\/jquery.cookie-1.4.1.min.js":1,"sites\/all\/modules\/jquery_update\/replace\/misc\/jquery.form.min.js":1,"misc\/ajax.js":1,"sites\/all\/modules\/jquery_update\/js\/jquery_update.js":1,"sites\/all\/modules\/nutrition_custom\/js\/nutrition_custom.js":1,"sites\/all\/libraries\/colorbox\/jquery.colorbox-min.js":1,"sites\/all\/modules\/colorbox\/js\/colorbox.js":1,"sites\/all\/modules\/colorbox\/styles\/default\/colorbox_style.js":1,"sites\/all\/modules\/custom_search\/js\/custom_search.js":1,"2":1,"https:\/\/ws.sharethis.com\/button\/buttons.js":1,"3":1,"sites\/all\/modules\/views\/js\/base.js":1,"misc\/progress.js":1,"sites\/all\/modules\/views\/js\/ajax_view.js":1,"sites\/all\/modules\/responsive_menus\/styles\/responsive_menus_simple\/js\/responsive_menus_simple.js":1,"sites\/all\/modules\/google_analytics\/googleanalytics.js":1,"4":1,"sites\/all\/themes\/nutrition_society\/js\/nutrition-society.behaviors.js":1,"sites\/all\/themes\/nutrition_society\/js\/fix-slick-slider-arrows.js":1,"sites\/all\/themes\/nutrition_society\/js\/custom.js":1,"sites\/all\/themes\/nutrition_society\/js\/member-area.js":1},"css":{"sites\/all\/themes\/omega\/omega\/css\/modules\/system\/system.base.css":1,"sites\/all\/themes\/omega\/omega\/css\/modules\/system\/system.menus.theme.css":1,"sites\/all\/themes\/omega\/omega\/css\/modules\/system\/system.messages.theme.css":1,"sites\/all\/themes\/omega\/omega\/css\/modules\/system\/system.theme.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"sites\/all\/themes\/omega\/omega\/css\/modules\/aggregator\/aggregator.theme.css":1,"sites\/all\/modules\/logintoboggan\/logintoboggan.css":1,"modules\/node\/node.css":1,"sites\/all\/themes\/omega\/omega\/css\/modules\/field\/field.theme.css":1,"sites\/all\/modules\/webform_workflow\/includes\/webform_workflow.css":1,"sites\/all\/modules\/workflow\/workflow_admin_ui\/workflow_admin_ui.css":1,"sites\/all\/themes\/omega\/omega\/css\/modules\/search\/search.theme.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/themes\/omega\/omega\/css\/modules\/user\/user.base.css":1,"sites\/all\/themes\/omega\/omega\/css\/modules\/user\/user.theme.css":1,"sites\/all\/modules\/media\/modules\/media_wysiwyg\/css\/media_wysiwyg.base.css":1,"sites\/all\/modules\/colorbox\/styles\/default\/colorbox_style.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/custom_search\/custom_search.css":1,"sites\/all\/modules\/nice_menus\/css\/nice_menus.css":1,"sites\/all\/modules\/nice_menus\/css\/nice_menus_default.css":1,"sites\/all\/modules\/responsive_menus\/styles\/responsive_menus_simple\/css\/responsive_menus_simple.css":1,"sites\/all\/modules\/eu_cookie_compliance\/css\/eu_cookie_compliance.css":1,"sites\/all\/modules\/civicrm\/css\/crm-i.css":1,"sites\/all\/modules\/civicrm\/css\/civicrm.css":1,"public:\/\/ctools\/css\/e1a17038983968156ee26d78ec059ee0.css":1,"sites\/all\/themes\/nutrition_society\/css\/nutrition-society.normalize.css":1,"sites\/all\/themes\/nutrition_society\/css\/nutrition-society.hacks.css":1,"sites\/all\/themes\/nutrition_society\/css\/nutrition-society.styles.css":1,"sites\/all\/themes\/nutrition_society\/css\/nutrition-society.civi.css":1,"sites\/all\/themes\/nutrition_society\/css\/style.new.css":1,"sites\/all\/themes\/nutrition_society\/css\/nutrition-society.no-query.css":1,"public:\/\/css_injector\/css_injector_1.css":1,"public:\/\/css_injector\/css_injector_2.css":1}},"colorbox":{"opacity":"0.85","current":"{current} of {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"Close","maxWidth":"98%","maxHeight":"98%","fixed":true,"mobiledetect":true,"mobiledevicewidth":"480px"},"custom_search":{"form_target":"_self","solr":0},"nice_menus_options":{"delay":"800","speed":"normal"},"views":{"ajax_path":"\/views\/ajax","ajaxViews":{"views_dom_id:47e9d4462928e554b51d19a6e4cbb63f":{"view_name":"features_for_an_exhibition","view_display_id":"block","view_args":"289","view_path":"node\/289","view_base_path":null,"view_dom_id":"47e9d4462928e554b51d19a6e4cbb63f","pager_element":0}}},"urlIsAjaxTrusted":{"\/views\/ajax":true,"\/node\/289":true},"better_exposed_filters":{"views":{"features_for_an_exhibition":{"displays":{"block":{"filters":[]}}}}},"responsive_menus":[{"toggler_text":"\u2630 Menu","selectors":[".nice-menu-main-menu"],"media_size":"960","media_unit":"px","absolute":"1","remove_attributes":"1","responsive_menus_style":"responsive_menus_simple"}],"eu_cookie_compliance":{"cookie_policy_version":"1.0.0","popup_enabled":1,"popup_agreed_enabled":0,"popup_hide_agreed":0,"popup_clicking_confirmation":false,"popup_scrolling_confirmation":false,"popup_html_info":"\u003Cdiv class=\u0022eu-cookie-compliance-banner eu-cookie-compliance-banner-info eu-cookie-compliance-banner--opt-in\u0022\u003E\n  \u003Cdiv class=\u0022popup-content info\u0022\u003E\n    \u003Cdiv id=\u0022popup-text\u0022\u003E\n      \u003Ch2\u003EYou have a choice regarding the use of cookies on this website.\u00a0\u003C\/h2\u003E\u003Cp\u003EWe use cookies to optimise site functionality and enhance your experience.\u00a0\u00a0\u003C\/p\u003E              \u003Cbutton type=\u0022button\u0022 class=\u0022find-more-button eu-cookie-compliance-more-button\u0022\u003ETo find out more, read the Society\u0027s Cookie Policy\u003C\/button\u003E\n          \u003C\/div\u003E\n    \n    \u003Cdiv id=\u0022popup-buttons\u0022 class=\u0022\u0022\u003E\n      \u003Cbutton type=\u0022button\u0022 class=\u0022agree-button eu-cookie-compliance-secondary-button\u0022\u003EI agree\u003C\/button\u003E\n              \u003Cbutton type=\u0022button\u0022 class=\u0022decline-button eu-cookie-compliance-default-button\u0022 \u003EI disagree\u003C\/button\u003E\n          \u003C\/div\u003E\n  \u003C\/div\u003E\n\u003C\/div\u003E","use_mobile_message":false,"mobile_popup_html_info":"\u003Cdiv class=\u0022eu-cookie-compliance-banner eu-cookie-compliance-banner-info eu-cookie-compliance-banner--opt-in\u0022\u003E\n  \u003Cdiv class=\u0022popup-content info\u0022\u003E\n    \u003Cdiv id=\u0022popup-text\u0022\u003E\n      \u003Ch2\u003EWe use cookies on this site to enhance your user experience\u003C\/h2\u003E\u003Cp\u003EBy tapping the Accept button, you agree to us doing so.\u003C\/p\u003E              \u003Cbutton type=\u0022button\u0022 class=\u0022find-more-button eu-cookie-compliance-more-button\u0022\u003ETo find out more, read the Society\u0027s Cookie Policy\u003C\/button\u003E\n          \u003C\/div\u003E\n    \n    \u003Cdiv id=\u0022popup-buttons\u0022 class=\u0022\u0022\u003E\n      \u003Cbutton type=\u0022button\u0022 class=\u0022agree-button eu-cookie-compliance-secondary-button\u0022\u003EI agree\u003C\/button\u003E\n              \u003Cbutton type=\u0022button\u0022 class=\u0022decline-button eu-cookie-compliance-default-button\u0022 \u003EI disagree\u003C\/button\u003E\n          \u003C\/div\u003E\n  \u003C\/div\u003E\n\u003C\/div\u003E\n","mobile_breakpoint":"768","popup_html_agreed":"\u003Cdiv\u003E\n  \u003Cdiv class=\u0022popup-content agreed\u0022\u003E\n    \u003Cdiv id=\u0022popup-text\u0022\u003E\n      \u003Ch2\u003EThank you for accepting cookies\u003C\/h2\u003E\u003Cp\u003EYou can now hide this message or find out more about cookies.\u003C\/p\u003E    \u003C\/div\u003E\n    \u003Cdiv id=\u0022popup-buttons\u0022\u003E\n      \u003Cbutton type=\u0022button\u0022 class=\u0022hide-popup-button eu-cookie-compliance-hide-button\u0022\u003EHide\u003C\/button\u003E\n              \u003Cbutton type=\u0022button\u0022 class=\u0022find-more-button eu-cookie-compliance-more-button-thank-you\u0022 \u003EMore info\u003C\/button\u003E\n          \u003C\/div\u003E\n  \u003C\/div\u003E\n\u003C\/div\u003E","popup_use_bare_css":false,"popup_height":"auto","popup_width":"100%","popup_delay":1000,"popup_link":"https:\/\/www.nutritionsociety.org\/cookie-policy","popup_link_new_window":1,"popup_position":null,"fixed_top_position":1,"popup_language":"en","store_consent":false,"better_support_for_screen_readers":0,"reload_page":0,"domain":"","domain_all_sites":0,"popup_eu_only_js":0,"cookie_lifetime":"100","cookie_session":false,"disagree_do_not_show_popup":0,"method":"opt_in","allowed_cookies":"","withdraw_markup":"\u003Cbutton type=\u0022button\u0022 class=\u0022eu-cookie-withdraw-tab\u0022\u003EPrivacy settings\u003C\/button\u003E\n\u003Cdiv class=\u0022eu-cookie-withdraw-banner\u0022\u003E\n  \u003Cdiv class=\u0022popup-content info\u0022\u003E\n    \u003Cdiv id=\u0022popup-text\u0022\u003E\n      \u003Ch2\u003EWe use cookies on this site to enhance your user experience.\u003C\/h2\u003E\u003Cp\u003EYou have given your consent for us to set cookies.\u003C\/p\u003E    \u003C\/div\u003E\n    \u003Cdiv id=\u0022popup-buttons\u0022\u003E\n      \u003Cbutton type=\u0022button\u0022 class=\u0022eu-cookie-withdraw-button\u0022\u003EWithdraw consent\u003C\/button\u003E\n    \u003C\/div\u003E\n  \u003C\/div\u003E\n\u003C\/div\u003E\n","withdraw_enabled":false,"withdraw_button_on_info_popup":0,"cookie_categories":[],"cookie_categories_details":[],"enable_save_preferences_button":1,"cookie_name":"","containing_element":"body","automatic_cookies_removal":1},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip","trackColorbox":1}});</script>
+</head>
+<body class="html not-front not-logged-in page-node page-node- page-node-289 node-type-page section-cookie-policy">
+  <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+    <div class="l-page l-page--has-no-sidebars">
+  <header class="l-header" role="banner">
+    <div class="l-header_inner">
+      <div class="l-branding l-region">
+        <div class="l-branding__inner">
+                      <a href="/" title="Home" rel="home" class="site-logo"><img src="https://www.nutritionsociety.org/sites/all/themes/nutrition_society/logo.png" alt="Home" /></a>
+          
+          
+                  </div>
+      </div>
+
+      <div class="l-user">
+        <div class="l-user__inner">
+            <div class="l-region l-region--header">
+    <div id="block-gtranslate-gtranslate" class="block block--gtranslate block--gtranslate-gtranslate">
+        <div class="block__content">
+    <script type="text/javascript">
+/* <![CDATA[ */
+eval(unescape("eval%28function%28p%2Ca%2Cc%2Ck%2Ce%2Cr%29%7Be%3Dfunction%28c%29%7Breturn%28c%3Ca%3F%27%27%3Ae%28parseInt%28c/a%29%29%29+%28%28c%3Dc%25a%29%3E35%3FString.fromCharCode%28c+29%29%3Ac.toString%2836%29%29%7D%3Bif%28%21%27%27.replace%28/%5E/%2CString%29%29%7Bwhile%28c--%29r%5Be%28c%29%5D%3Dk%5Bc%5D%7C%7Ce%28c%29%3Bk%3D%5Bfunction%28e%29%7Breturn%20r%5Be%5D%7D%5D%3Be%3Dfunction%28%29%7Breturn%27%5C%5Cw+%27%7D%3Bc%3D1%7D%3Bwhile%28c--%29if%28k%5Bc%5D%29p%3Dp.replace%28new%20RegExp%28%27%5C%5Cb%27+e%28c%29+%27%5C%5Cb%27%2C%27g%27%29%2Ck%5Bc%5D%29%3Breturn%20p%7D%28%276%207%28a%2Cb%29%7Bn%7B4%282.9%29%7B3%20c%3D2.9%28%22o%22%29%3Bc.p%28b%2Cf%2Cf%29%3Ba.q%28c%29%7Dg%7B3%20c%3D2.r%28%29%3Ba.s%28%5C%27t%5C%27+b%2Cc%29%7D%7Du%28e%29%7B%7D%7D6%20h%28a%29%7B4%28a.8%29a%3Da.8%3B4%28a%3D%3D%5C%27%5C%27%29v%3B3%20b%3Da.w%28%5C%27%7C%5C%27%29%5B1%5D%3B3%20c%3B3%20d%3D2.x%28%5C%27y%5C%27%29%3Bz%283%20i%3D0%3Bi%3Cd.5%3Bi++%294%28d%5Bi%5D.A%3D%3D%5C%27B-C-D%5C%27%29c%3Dd%5Bi%5D%3B4%282.j%28%5C%27k%5C%27%29%3D%3DE%7C%7C2.j%28%5C%27k%5C%27%29.l.5%3D%3D0%7C%7Cc.5%3D%3D0%7C%7Cc.l.5%3D%3D0%29%7BF%286%28%29%7Bh%28a%29%7D%2CG%29%7Dg%7Bc.8%3Db%3B7%28c%2C%5C%27m%5C%27%29%3B7%28c%2C%5C%27m%5C%27%29%7D%7D%27%2C43%2C43%2C%27%7C%7Cdocument%7Cvar%7Cif%7Clength%7Cfunction%7CGTranslateFireEvent%7Cvalue%7CcreateEvent%7C%7C%7C%7C%7C%7Ctrue%7Celse%7CdoGTranslate%7C%7CgetElementById%7Cgoogle_translate_element2%7CinnerHTML%7Cchange%7Ctry%7CHTMLEvents%7CinitEvent%7CdispatchEvent%7CcreateEventObject%7CfireEvent%7Con%7Ccatch%7Creturn%7Csplit%7CgetElementsByTagName%7Cselect%7Cfor%7CclassName%7Cgoog%7Cte%7Ccombo%7Cnull%7CsetTimeout%7C500%27.split%28%27%7C%27%29%2C0%2C%7B%7D%29%29"))
+/* ]]> */
+</script><style type="text/css">
+<!--
+#goog-gt-tt {display:none !important;}
+
+.goog-te-banner-frame {display:none !important;}
+
+.goog-te-menu-value:hover {text-decoration:none !important;}
+
+body {top:0 !important;}
+
+#google_translate_element2 {display:none!important;}
+-->
+</style><div id="google_translate_element2"></div>
+<script type="text/javascript">function googleTranslateElementInit2() {new google.translate.TranslateElement({pageLanguage: 'en', autoDisplay: false}, 'google_translate_element2');}</script>
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit2"></script><select onchange="doGTranslate(this);"><option value="">Select Language</option><option value="en|en" style="font-weight:bold;background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -0px;padding-left:18px;">English</option><option value="en|af" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -688px;padding-left:18px;">Afrikaans</option><option value="en|sq" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -560px;padding-left:18px;">Albanian</option><option value="en|am" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1456px;padding-left:18px;">Amharic</option><option value="en|ar" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -16px;padding-left:18px;">Arabic</option><option value="en|hy" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -832px;padding-left:18px;">Armenian</option><option value="en|az" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -848px;padding-left:18px;">Azerbaijani</option><option value="en|eu" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -864px;padding-left:18px;">Basque</option><option value="en|be" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -768px;padding-left:18px;">Belarusian</option><option value="en|bn" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -928px;padding-left:18px;">Bengali</option><option value="en|bs" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -944px;padding-left:18px;">Bosnian</option><option value="en|bg" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -32px;padding-left:18px;">Bulgarian</option><option value="en|ca" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -384px;padding-left:18px;">Catalan</option><option value="en|ceb" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -960px;padding-left:18px;">Cebuano</option><option value="en|ny" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1312px;padding-left:18px;">Chichewa</option><option value="en|zh-CN" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -48px;padding-left:18px;">Chinese (Simplified)</option><option value="en|zh-TW" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -64px;padding-left:18px;">Chinese (Traditional)</option><option value="en|co" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1472px;padding-left:18px;">Corsican</option><option value="en|hr" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -80px;padding-left:18px;">Croatian</option><option value="en|cs" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -96px;padding-left:18px;">Czech</option><option value="en|da" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -112px;padding-left:18px;">Danish</option><option value="en|nl" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -128px;padding-left:18px;">Dutch</option><option value="en|eo" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -976px;padding-left:18px;">Esperanto</option><option value="en|et" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -576px;padding-left:18px;">Estonian</option><option value="en|tl" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -400px;padding-left:18px;">Filipino</option><option value="en|fi" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -144px;padding-left:18px;">Finnish</option><option value="en|fr" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -160px;padding-left:18px;">French</option><option value="en|fy" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1632px;padding-left:18px;">Frisian</option><option value="en|gl" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -592px;padding-left:18px;">Galician</option><option value="en|ka" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -880px;padding-left:18px;">Georgian</option><option value="en|de" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -176px;padding-left:18px;">German</option><option value="en|el" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -192px;padding-left:18px;">Greek</option><option value="en|gu" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -992px;padding-left:18px;">Gujarati</option><option value="en|ht" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -896px;padding-left:18px;">Haitian Creole</option><option value="en|ha" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1008px;padding-left:18px;">Hausa</option><option value="en|haw" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1488px;padding-left:18px;">Hawaiian</option><option value="en|iw" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -416px;padding-left:18px;">Hebrew</option><option value="en|hi" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -208px;padding-left:18px;">Hindi</option><option value="en|hmn" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1024px;padding-left:18px;">Hmong</option><option value="en|hu" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -608px;padding-left:18px;">Hungarian</option><option value="en|is" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -784px;padding-left:18px;">Icelandic</option><option value="en|ig" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1040px;padding-left:18px;">Igbo</option><option value="en|id" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -432px;padding-left:18px;">Indonesian</option><option value="en|ga" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -736px;padding-left:18px;">Irish</option><option value="en|it" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -224px;padding-left:18px;">Italian</option><option value="en|ja" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -240px;padding-left:18px;">Japanese</option><option value="en|jw" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1056px;padding-left:18px;">Javanese</option><option value="en|kn" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1072px;padding-left:18px;">Kannada</option><option value="en|kk" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1328px;padding-left:18px;">Kazakh</option><option value="en|km" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1088px;padding-left:18px;">Khmer</option><option value="en|ko" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -256px;padding-left:18px;">Korean</option><option value="en|ku" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1504px;padding-left:18px;">Kurdish (Kurmanji)</option><option value="en|ky" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1520px;padding-left:18px;">Kyrgyz</option><option value="en|lo" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1104px;padding-left:18px;">Lao</option><option value="en|la" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1120px;padding-left:18px;">Latin</option><option value="en|lv" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -448px;padding-left:18px;">Latvian</option><option value="en|lt" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -464px;padding-left:18px;">Lithuanian</option><option value="en|lb" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1536px;padding-left:18px;">Luxembourgish</option><option value="en|mk" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -800px;padding-left:18px;">Macedonian</option><option value="en|mg" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1344px;padding-left:18px;">Malagasy</option><option value="en|ms" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -704px;padding-left:18px;">Malay</option><option value="en|ml" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1360px;padding-left:18px;">Malayalam</option><option value="en|mt" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -624px;padding-left:18px;">Maltese</option><option value="en|mi" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1136px;padding-left:18px;">Maori</option><option value="en|mr" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1152px;padding-left:18px;">Marathi</option><option value="en|mn" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1168px;padding-left:18px;">Mongolian</option><option value="en|my" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1296px;padding-left:18px;">Myanmar (Burmese)</option><option value="en|ne" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1184px;padding-left:18px;">Nepali</option><option value="en|no" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -272px;padding-left:18px;">Norwegian</option><option value="en|ps" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1552px;padding-left:18px;">Pashto</option><option value="en|fa" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -672px;padding-left:18px;">Persian</option><option value="en|pl" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -288px;padding-left:18px;">Polish</option><option value="en|pt" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -304px;padding-left:18px;">Portuguese</option><option value="en|pa" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1200px;padding-left:18px;">Punjabi</option><option value="en|ro" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -320px;padding-left:18px;">Romanian</option><option value="en|ru" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -336px;padding-left:18px;">Russian</option><option value="en|sm" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1568px;padding-left:18px;">Samoan</option><option value="en|gd" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1584px;padding-left:18px;">Scottish Gaelic</option><option value="en|sr" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -480px;padding-left:18px;">Serbian</option><option value="en|st" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1392px;padding-left:18px;">Sesotho</option><option value="en|sn" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1600px;padding-left:18px;">Shona</option><option value="en|sd" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1616px;padding-left:18px;">Sindhi</option><option value="en|si" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1376px;padding-left:18px;">Sinhala</option><option value="en|sk" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -496px;padding-left:18px;">Slovak</option><option value="en|sl" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -512px;padding-left:18px;">Slovenian</option><option value="en|so" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1216px;padding-left:18px;">Somali</option><option value="en|es" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -352px;padding-left:18px;">Spanish</option><option value="en|su" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1408px;padding-left:18px;">Sudanese</option><option value="en|sw" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -720px;padding-left:18px;">Swahili</option><option value="en|sv" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -368px;padding-left:18px;">Swedish</option><option value="en|tg" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1424px;padding-left:18px;">Tajik</option><option value="en|ta" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1232px;padding-left:18px;">Tamil</option><option value="en|te" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1248px;padding-left:18px;">Telugu</option><option value="en|th" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -640px;padding-left:18px;">Thai</option><option value="en|tr" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -656px;padding-left:18px;">Turkish</option><option value="en|uk" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -528px;padding-left:18px;">Ukrainian</option><option value="en|ur" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -912px;padding-left:18px;">Urdu</option><option value="en|uz" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1440px;padding-left:18px;">Uzbek</option><option value="en|vi" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -544px;padding-left:18px;">Vietnamese</option><option value="en|cy" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -752px;padding-left:18px;">Welsh</option><option value="en|xh" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1648px;padding-left:18px;">Xhosa</option><option value="en|yi" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -816px;padding-left:18px;">Yiddish</option><option value="en|yo" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1264px;padding-left:18px;">Yoruba</option><option value="en|zu" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1280px;padding-left:18px;">Zulu</option></select>  </div>
+</div>
+<nav id="block-menu-block-3" role="navigation" class="block block--menu-block block--menu-block-3">
+      
+  <div class="menu-block-wrapper menu-block-3 menu-name-menu-top-menu parent-mlid-0 menu-level-1">
+  <ul class="menu"><li class="first leaf menu-mlid-9646"><a href="/societys-archive" title="" class="menu-node-unpublished menu-node-unpublished">The Society&#039;s Archive</a></li>
+<li class="last leaf menu-mlid-9649"><a href="https://jobs.nutritionsociety.org/" title="">Jobs</a></li>
+</ul></div>
+</nav>
+<div id="block-search-form" role="search" class="block block--search block--search-form">
+        <div class="block__content">
+    <form class="search-form search-block-form" role="search" action="/node/289" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+      <h2 class="element-invisible">Search form</h2>
+    <div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--2">Search this site </label>
+ <input title="" class="custom-search-box form-text" placeholder="Search" type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions"><input alt="Search" class="custom-search-button form-submit" type="image" id="edit-submit" name="op" src="https://www.nutritionsociety.org/sites/default/files/custom_search/search_0_0.png" /></div><input type="hidden" name="form_build_id" value="form-ULvZpy9gVnOv8mzbz6z_tut3rFEaCN6vRJIpW9mMlLs" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>  </div>
+</div>
+<nav id="block-system-user-menu" role="navigation" class="block block--system block--menu block--system-user-menu">
+      
+  <ul class="menu"><li class="first last leaf"><a href="/user/login?destination=member-area" title="">My Membership login</a></li>
+</ul></nav>
+  </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="l-navigation">
+      <div class="l-navigation__inner">
+          <div class="l-region l-region--navigation">
+    <div id="block-nice-menus-1" class="block block--nice-menus block--nice-menus-1">
+        <div class="block__content">
+    <ul class="nice-menu nice-menu-down nice-menu-main-menu" id="nice-menu-1"><li class="menu-554 menuparent  menu-path-node-1 first odd "><a href="/about">About Us</a><ul><li class="menu-606  menu-path-node-14 first odd "><a href="/governance">Governance</a></li>
+<li class="menu-5777 menu-path-node-661  even "><a href="/strategic-plan-2016-2021">Strategic Plan</a></li>
+<li class="menu-9701  menu-path-node-857  odd "><a href="/people">People</a></li>
+<li class="menu-566  menu-path-node-8  even "><a href="/history">History</a></li>
+<li class="menu-997 menu-path-node-135  odd "><a href="/memorandum-understanding">Memorandum of Understanding</a></li>
+<li class="menu-3611 menu-path-node-495  even last"><a href="/watch-video-about-us">Watch a video about us</a></li>
+</ul></li>
+<li class="menu-558 menuparent  menu-path-publications  even "><a href="/publications">Publications</a><ul><li class="menu-608  menu-path-taxonomy-term-3 first odd "><a href="/publications/journals" title="">Journals</a></li>
+<li class="menu-784 menu-path-papers  even "><a href="/papers" title="">Paper of the Month</a></li>
+<li class="menu-609 menu-path-taxonomy-term-4  odd "><a href="/publications/textbooks" title="">Textbooks</a></li>
+<li class="menu-6978 menu-path-taxonomy-term-55  even last"><a href="/publications/gazette" title="">The Gazette</a></li>
+</ul></li>
+<li class="menu-555 menuparent  menu-path-node-2  odd "><a href="/membership">Membership</a><ul><li class="menu-615 menu-path-node-29 first odd "><a href="/membership-benefits">Membership Benefits</a></li>
+<li class="menu-616 menu-path-node-30  even "><a href="/types-membership">Types of Membership</a></li>
+<li class="menu-617 menu-path-node-31  odd "><a href="/become-member">Become a Member</a></li>
+<li class="menu-619 menu-path-node-32  even "><a href="/renew-your-membership">Renew Your Membership</a></li>
+<li class="menu-991  menu-path-node-134  odd "><a href="/opportunities-become-involved">Become involved</a></li>
+<li class="menu-11740 menu-path-node-1108  even last"><a href="/member-connect">Member-Connect</a></li>
+</ul></li>
+<li class="menu-9709 menuparent  menu-path-node-827  even "><a href="/conferences">Conferences</a><ul><li class="menu-9710 menu-path-node-828 first odd "><a href="/conferences/conferences">Upcoming Conferences</a></li>
+<li class="menu-9711 menu-path-node-829  even "><a href="/conferences/external-events">External Events</a></li>
+<li class="menu-11715  menu-path-node-1008  odd "><a href="/conferences/bid-conference" class="menu-node-unpublished menu-node-unpublished menu-node-unpublished menu-node-unpublished menu-node-unpublished menu-node-unpublished">Bid for a Conference</a></li>
+<li class="menu-11720 menu-path-node-1016  even last"><a href="/conferences/past-conferences" class="menu-node-unpublished menu-node-unpublished menu-node-unpublished menu-node-unpublished menu-node-unpublished menu-node-unpublished menu-node-unpublished menu-node-unpublished menu-node-unpublished menu-node-unpublished menu-node-unpublished menu-node-unpublished menu-node-unpublished menu-node-unpublished menu-node-unpublished">Past Conferences</a></li>
+</ul></li>
+<li class="menu-9695 menuparent  menu-path-node-819  odd "><a href="/training-academy" class="menu-node-unpublished">Training Academy</a><ul><li class="menu-9696 menu-path-node-825 first odd "><a href="/training-academy/webinars-and-workshops" class="menu-node-unpublished menu-node-unpublished menu-node-unpublished">Webinars &amp; Workshops</a></li>
+<li class="menu-9697 menu-path-node-826  even "><a href="/demand-webinars" class="menu-node-unpublished menu-node-unpublished menu-node-unpublished">On Demand Webinars</a></li>
+<li class="menu-9699 menu-path-node-823  odd last"><a href="/training-academy/support">Career Support</a></li>
+</ul></li>
+<li class="menu-9716 menuparent  menu-path-node-862  even "><a href="/awards-and-grants">Awards and Grants</a><ul><li class="menu-9723  menu-path-node-863 first odd "><a href="/awards-0">Awards</a></li>
+<li class="menu-9722  menu-path-node-864  even "><a href="/grants-0" class="menu-node-unpublished">Grants</a></li>
+<li class="menu-9724  menu-path-node-865  odd last"><a href="/partner-grants">Partner Grants</a></li>
+</ul></li>
+<li class="menu-557 menuparent  menu-path-node-833  odd last"><a href="/news" title="" class="menu-node-unpublished menu-node-unpublished menu-node-unpublished">News</a><ul><li class="menu-1004 menu-path-news-blog first odd "><a href="/news/blog">Blog</a></li>
+<li class="menu-9664 menu-path-node-834  even "><a href="/news/announcements" title="">Announcements</a></li>
+<li class="menu-9663 menu-path-node-836  odd last"><a href="/news/policy">Policy</a></li>
+</ul></li>
+</ul>
+  </div>
+</div>
+  </div>
+              </div>
+    </div>
+  </header>
+
+      <div class="l-breadcrumb">
+      <div class="l-breadcrumb__inner">
+          <div class="l-region l-region--breadcrumb">
+    <div id="block-delta-blocks-breadcrumb" class="block block--delta-blocks block--delta-blocks-breadcrumb">
+        <div class="block__content">
+    <div id="breadcrumb" class="clearfix"><ul class="breadcrumb"><li class="depth-1 odd first"><a href="/">Home</a></li><li class="depth-2 even last"><a href="/cookie-policy" class="active">Cookie Policy</a></li></ul></div>  </div>
+</div>
+  </div>
+      </div>
+    </div>
+  
+  <div class="l-main">
+        <div class="l-content l-region" role="main">
+      <a id="main-content"></a>
+                    <h1 class="page__title">Cookie Policy</h1>
+                                          <div  about="/cookie-policy" typeof="foaf:Document" class="ds-1col node node--page view-mode-full node--full node--page--full clearfix">
+
+  
+  <div class="field field--name-body field--type-text-with-summary field--label-hidden"><div class="field__items"><div class="field__item even" property="content:encoded"><p>Our website uses cookies to distinguish you from other users of our website. This helps us to provide you with a good experience when you browse our website and also allows us to improve our site. By continuing to browse the site, you are agreeing to our use of cookies.</p>
+
+<p>A cookie is a small file of letters and numbers stored on your browser or the hard drive of your computer in order to enhance your experience and to provide functionality on the website.</p>
+
+<p>We use the following cookies:</p>
+
+<ul>
+	<li><strong>Strictly necessary cookies.</strong> These are cookies that are required for the operation of our website. They include, for example, cookies that enable you to log into secure areas of our website such as ‘My Membership' and on-line payment services.</li>
+	<li><strong>Analytical/performance cookies.</strong> These allow us to recognise and count the number of visitors and to see how visitors move around our website when they are using it. This helps us to improve the way our website works, for example, by ensuring that users are finding what they are looking for easily.</li>
+	<li><strong>Functionality cookies.</strong> These are used to recognise you when you return to our website. This enables us to personalise our content for you, greet you by name and remember your preferences (for example, your choice of language or region).
+		<p>We may also use:</p>
+	</li>
+	<li><strong>Targeting cookies.</strong> These cookies record your visit to our website, the pages you have visited and the links you have followed. We will use this information to make our website and any content displayed on it more relevant to your interests.</li>
+</ul>
+
+<p>You can find more information about the individual cookies we use and the purposes for which we use them in the table below:</p>
+
+<table align="left" border="0" cellpadding="1" cellspacing="1" style="width:1150px">
+	<tbody>
+		<tr>
+			<td><strong>Cookie</strong></td>
+			<td><strong>Name</strong></td>
+			<td><strong>Purpose</strong></td>
+			<td style="width: 200px;"><strong>More information</strong></td>
+		</tr>
+		<tr>
+			<td>Drupal</td>
+			<td>Drupal session data</td>
+			<td>This allows you to access our website and login to check your account</td>
+			<td><a href="http://drupal.org">http://drupal.org</a></td>
+		</tr>
+		<tr>
+			<td>Google Analytics</td>
+			<td>Google Analytics integration</td>
+			<td>We use anonymous browsing data to see which pages you and other visitors have visited</td>
+			<td> </td>
+		</tr>
+		<tr>
+			<td>ShareThis</td>
+			<td>ShareThis integration</td>
+			<td>ShareThis allows you to share our site on social media.</td>
+			<td> </td>
+		</tr>
+	</tbody>
+</table>
+
+<p> </p>
+
+<p> </p>
+
+<p> </p>
+
+<p> </p>
+
+<p>Please note that third parties (including, for example, advertising networks and providers of external services like web traffic analysis services) may also use cookies, over which we have no control.</p>
+
+<p>You may block cookies by activating the relevant settings on your browser. However, if you use your browser settings to block all cookies (including essential cookies) you may not be able to access all or parts of our site.</p>
+
+<p>Except for essential cookies, all cookies will expire after 30 days maximum.</p>
+</div></div></div></div>
+
+<div id="block-sharethis-sharethis-block" class="block block--sharethis block--sharethis-sharethis-block">
+        <h2 class="block__title">Share</h2>
+      <div class="block__content">
+    <div class="sharethis-wrapper"><span st_url="https://www.nutritionsociety.org/cookie-policy" st_title="Cookie Policy" class="st_facebook_custom" displayText="facebook"></span>
+<span st_url="https://www.nutritionsociety.org/cookie-policy" st_title="Cookie Policy" class="st_twitter_custom" st_via="NutritionSoc" st_username="" displayText="twitter"></span>
+<span st_url="https://www.nutritionsociety.org/cookie-policy" st_title="Cookie Policy" class="st_linkedin_custom" displayText="linkedin"></span>
+<span st_url="https://www.nutritionsociety.org/cookie-policy" st_title="Cookie Policy" class="st_email_custom" displayText="email"></span>
+<span st_url="https://www.nutritionsociety.org/cookie-policy" st_title="Cookie Policy" class="st_sharethis_custom" displayText="sharethis"></span>
+</div>  </div>
+</div>
+          </div>
+          </div>
+
+  <div class="l-highlighted">
+    <div class="l-highlighted__inner">
+        <div class="l-region l-region--highlighted">
+    <div id="block-block-1" class="block block--block block-membership block--block-1">
+        <h2 class="block__title">Membership</h2>
+      <div class="block__content">
+    <p>Membership of our global nutritional science community offers a host of benefits, from access to the latest evidence based research to event discounts and travel grants.</p>
+
+<p><a class="button button--secondary button--text-secondary-blue" href="/membership">Membership</a></p>  </div>
+</div>
+<div id="block-block-2" class="block block--block block-history block--block-2">
+        <h2 class="block__title">History</h2>
+      <div class="block__content">
+    <p>Find out more about our history, from how the Nutrition Society was first established, to how we’ve become the largest learned Society in Europe today.</p>
+
+<p><a class="button button--secondary button--text-secondary-blue" href="/history">History</a></p>  </div>
+</div>
+  </div>
+    </div>
+  </div>
+
+  <footer class="l-footer" role="contentinfo">
+    <div class="l-footer__inner">
+        <div class="l-region l-region--footer">
+    <nav id="block-menu-menu-footer-menu" role="navigation" class="block block--menu block-menu--footer block--menu-menu-footer-menu">
+      
+  <ul class="menu"><li class="first leaf"><a href="https://www.nutritionsociety.org/privacy-policy" title="">Privacy Policy</a></li>
+<li class="leaf"><a href="https://www.nutritionsociety.org/sponsorship-policy" title="">Sponsorship Policy</a></li>
+<li class="leaf"><a href="https://www.nutritionsociety.org/cookie-policy" title="">Cookie Policy</a></li>
+<li class="leaf"><a href="https://www.nutritionsociety.org/terms-use#overlay-context=terms-use" title="">Terms of Use</a></li>
+<li class="last leaf"><a href="/complaints" title="">Complaints</a></li>
+</ul></nav>
+<div id="block-block-3" class="block block--block block-address block--block-3">
+        <div class="block__content">
+    <p><strong>The Nutrition Society</strong></p>
+
+<p>10 Cambridge Court</p>
+
+<p>210 Shepherds Bush Road</p>
+
+<p>London</p>
+
+<p>W6 7NJ</p>
+
+<p>UK</p>  </div>
+</div>
+<div id="block-block-4" class="block block--block block-contact block--block-4">
+        <div class="block__content">
+    <div class="block-contact__sm">
+<a class="sm-icon sm-icon--twitter" href="https://twitter.com/NutritionSoc"></a><a class="sm-icon sm-icon--facebook" href="https://www.facebook.com/thenutritionsociety"></a><a class="sm-icon sm-icon--linkedin" href="https://www.linkedin.com/company/nutrition-society"></a><a class="sm-icon sm-icon--youtube" href="https://www.youtube.com/channel/UCrYD0LcdX1S98bOxZLnxJxA"></a><a class="sm-icon sm-icon--instagram" href="https://www.instagram.com/the_nutrition_society/"></a>
+</div>
+<p><a href="/contact">Contact the Nutrition Society</a></p>
+  </div>
+</div>
+  </div>
+    </div>
+  </footer>
+</div>
+  <script>window.eu_cookie_compliance_cookie_name = "";</script>
+<script defer="defer" src="https://www.nutritionsociety.org/sites/all/modules/eu_cookie_compliance/js/eu_cookie_compliance.js?qoofk6"></script>
+</body>
+</html>

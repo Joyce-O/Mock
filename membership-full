@@ -1,0 +1,2222 @@
+<!DOCTYPE html>
+  <!--[if IEMobile 7]><html class="no-js ie iem7" lang="en" dir="ltr"><![endif]-->
+  <!--[if lte IE 6]><html class="no-js ie lt-ie9 lt-ie8 lt-ie7" lang="en" dir="ltr"><![endif]-->
+  <!--[if (IE 7)&(!IEMobile)]><html class="no-js ie lt-ie9 lt-ie8" lang="en" dir="ltr"><![endif]-->
+  <!--[if IE 8]><html class="no-js ie lt-ie9" lang="en" dir="ltr"><![endif]-->
+  <!--[if (gte IE 9)|(gt IEMobile 7)]><html class="no-js ie" lang="en" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/ dc: http://purl.org/dc/terms/ foaf: http://xmlns.com/foaf/0.1/ og: http://ogp.me/ns# rdfs: http://www.w3.org/2000/01/rdf-schema# sioc: http://rdfs.org/sioc/ns# sioct: http://rdfs.org/sioc/types# skos: http://www.w3.org/2004/02/skos/core# xsd: http://www.w3.org/2001/XMLSchema#"><![endif]-->
+  <!--[if !IE]><!--><html class="no-js" lang="en" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/ dc: http://purl.org/dc/terms/ foaf: http://xmlns.com/foaf/0.1/ og: http://ogp.me/ns# rdfs: http://www.w3.org/2000/01/rdf-schema# sioc: http://rdfs.org/sioc/ns# sioct: http://rdfs.org/sioc/types# skos: http://www.w3.org/2004/02/skos/core# xsd: http://www.w3.org/2001/XMLSchema#"><!--<![endif]-->
+<head>
+  <meta charset="utf-8" />
+<script type="text/javascript">
+(function(vars) {
+            if (window.CRM) CRM.$.extend(true, CRM, vars); else window.CRM = vars;
+            })({"config":{"isFrontend":false,"entityRef":{"contactCreate":false},"wysisygScriptLocation":"/sites/all/modules/civicrm/js/wysiwyg/crm.ckeditor.js","CKEditorCustomConfig":{"default":"https://www.nutritionsociety.org/sites/default/files/civicrm/persist/crm-ckeditor-default.js","civimail":"https://www.nutritionsociety.org/sites/default/files/civicrm/persist/crm-ckeditor-civimail.js"}}})
+</script>
+<link rel="shortcut icon" href="https://www.nutritionsociety.org/sites/default/files/favicon.png" type="image/png" />
+<link rel="profile" href="http://www.w3.org/1999/xhtml/vocab" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="MobileOptimized" content="width" />
+<meta http-equiv="cleartype" content="on" />
+<link rel="apple-touch-icon-precomposed" href="https://www.nutritionsociety.org/sites/all/themes/nutrition_society/apple-touch-icon-precomposed-144x144.png" sizes="144x144" />
+<link rel="apple-touch-icon-precomposed" href="https://www.nutritionsociety.org/sites/all/themes/nutrition_society/apple-touch-icon-precomposed-114x114.png" sizes="114x114" />
+<link rel="apple-touch-icon-precomposed" href="https://www.nutritionsociety.org/sites/all/themes/nutrition_society/apple-touch-icon-precomposed-72x72.png" sizes="72x72" />
+<link rel="apple-touch-icon-precomposed" href="https://www.nutritionsociety.org/sites/all/themes/nutrition_society/apple-touch-icon-precomposed.png" />
+<meta name="generator" content="Drupal 7 (http://drupal.org)" />
+<meta name="viewport" content="width=device-width" />
+<link rel="canonical" href="https://www.nutritionsociety.org/civicrm/contribute/transact" />
+<link rel="shortlink" href="https://www.nutritionsociety.org/civicrm/contribute/transact" />
+  <title>Full Membership | The Nutrition Society</title>
+  <style>
+@import url("https://www.nutritionsociety.org/sites/all/themes/omega/omega/css/modules/system/system.base.css?qoofk6");
+@import url("https://www.nutritionsociety.org/sites/all/themes/omega/omega/css/modules/system/system.menus.theme.css?qoofk6");
+@import url("https://www.nutritionsociety.org/sites/all/themes/omega/omega/css/modules/system/system.messages.theme.css?qoofk6");
+@import url("https://www.nutritionsociety.org/sites/all/themes/omega/omega/css/modules/system/system.theme.css?qoofk6");
+@import url("https://www.nutritionsociety.org/sites/all/modules/date/date_api/date.css?qoofk6");
+@import url("https://www.nutritionsociety.org/sites/all/modules/date/date_popup/themes/datepicker.1.7.css?qoofk6");
+@import url("https://www.nutritionsociety.org/sites/all/themes/omega/omega/css/modules/aggregator/aggregator.theme.css?qoofk6");
+@import url("https://www.nutritionsociety.org/sites/all/modules/logintoboggan/logintoboggan.css?qoofk6");
+@import url("https://www.nutritionsociety.org/modules/node/node.css?qoofk6");
+@import url("https://www.nutritionsociety.org/sites/all/themes/omega/omega/css/modules/field/field.theme.css?qoofk6");
+@import url("https://www.nutritionsociety.org/sites/all/modules/webform_workflow/includes/webform_workflow.css?qoofk6");
+@import url("https://www.nutritionsociety.org/sites/all/modules/workflow/workflow_admin_ui/workflow_admin_ui.css?qoofk6");
+@import url("https://www.nutritionsociety.org/sites/all/themes/omega/omega/css/modules/search/search.theme.css?qoofk6");
+@import url("https://www.nutritionsociety.org/sites/all/modules/views/css/views.css?qoofk6");
+@import url("https://www.nutritionsociety.org/sites/all/themes/omega/omega/css/modules/user/user.base.css?qoofk6");
+@import url("https://www.nutritionsociety.org/sites/all/themes/omega/omega/css/modules/user/user.theme.css?qoofk6");
+@import url("https://www.nutritionsociety.org/sites/all/modules/media/modules/media_wysiwyg/css/media_wysiwyg.base.css?qoofk6");
+</style>
+<style>
+@import url("https://www.nutritionsociety.org/sites/all/modules/colorbox/styles/default/colorbox_style.css?qoofk6");
+@import url("https://www.nutritionsociety.org/sites/all/modules/ctools/css/ctools.css?qoofk6");
+@import url("https://www.nutritionsociety.org/sites/all/modules/custom_search/custom_search.css?qoofk6");
+@import url("https://www.nutritionsociety.org/sites/all/modules/nice_menus/css/nice_menus.css?qoofk6");
+@import url("https://www.nutritionsociety.org/sites/all/modules/nice_menus/css/nice_menus_default.css?qoofk6");
+@import url("https://www.nutritionsociety.org/sites/all/modules/responsive_menus/styles/responsive_menus_simple/css/responsive_menus_simple.css?qoofk6");
+@import url("https://www.nutritionsociety.org/sites/all/modules/eu_cookie_compliance/css/eu_cookie_compliance.css?qoofk6");
+@import url("https://www.nutritionsociety.org/sites/all/modules/civicrm/css/crm-i.css?qoofk6");
+@import url("https://www.nutritionsociety.org/sites/all/modules/civicrm/bower_components/datatables/media/css/jquery.dataTables.min.css?qoofk6");
+@import url("https://www.nutritionsociety.org/sites/all/modules/civicrm/bower_components/font-awesome/css/font-awesome.min.css?qoofk6");
+@import url("https://www.nutritionsociety.org/sites/all/modules/civicrm/bower_components/jquery-ui/themes/smoothness/jquery-ui.min.css?qoofk6");
+@import url("https://www.nutritionsociety.org/sites/all/modules/civicrm/bower_components/select2/select2.min.css?qoofk6");
+@import url("https://www.nutritionsociety.org/sites/all/modules/civicrm/css/civicrm.css?qoofk6");
+@import url("https://www.nutritionsociety.org/sites/default/files/ctools/css/e1a17038983968156ee26d78ec059ee0.css?qoofk6");
+</style>
+<style>
+@import url("https://www.nutritionsociety.org/sites/all/themes/nutrition_society/css/nutrition-society.normalize.css?qoofk6");
+@import url("https://www.nutritionsociety.org/sites/all/themes/nutrition_society/css/nutrition-society.hacks.css?qoofk6");
+@import url("https://www.nutritionsociety.org/sites/all/themes/nutrition_society/css/nutrition-society.styles.css?qoofk6");
+@import url("https://www.nutritionsociety.org/sites/all/themes/nutrition_society/css/style.new.css?qoofk6");
+</style>
+
+<!--[if lte IE 8]>
+<style>
+@import url("https://www.nutritionsociety.org/sites/all/themes/nutrition_society/css/nutrition-society.no-query.css?qoofk6");
+</style>
+<![endif]-->
+<style>
+@import url("https://www.nutritionsociety.org/sites/default/files/css_injector/css_injector_1.css?qoofk6");
+@import url("https://www.nutritionsociety.org/sites/default/files/css_injector/css_injector_2.css?qoofk6");
+</style>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script>window.jQuery || document.write("<script src='/sites/all/modules/jquery_update/replace/jquery/1.7/jquery.min.js'>\x3C/script>")</script>
+<script src="https://www.nutritionsociety.org/misc/jquery-extend-3.4.0.js?v=1.7.2"></script>
+<script src="https://www.nutritionsociety.org/misc/jquery-html-prefilter-3.5.0-backport.js?v=1.7.2"></script>
+<script src="https://www.nutritionsociety.org/misc/jquery.once.js?v=1.2"></script>
+<script src="https://www.nutritionsociety.org/misc/drupal.js?qoofk6"></script>
+<script src="https://www.nutritionsociety.org/sites/all/themes/omega/omega/js/no-js.js?qoofk6"></script>
+<script src="https://www.nutritionsociety.org/sites/all/modules/nice_menus/js/jquery.bgiframe.js?v=2.1"></script>
+<script src="https://www.nutritionsociety.org/sites/all/modules/nice_menus/js/jquery.hoverIntent.js?v=0.5"></script>
+<script src="https://www.nutritionsociety.org/sites/all/modules/nice_menus/js/superfish.js?v=1.4.8"></script>
+<script src="https://www.nutritionsociety.org/sites/all/modules/nice_menus/js/nice_menus.js?v=1.0"></script>
+<script src="https://www.nutritionsociety.org/sites/all/modules/eu_cookie_compliance/js/jquery.cookie-1.4.1.min.js?v=1.4.1"></script>
+<script src="https://www.nutritionsociety.org/sites/all/modules/civicrm/bower_components/jquery/dist/jquery.min.js?qoofk6"></script>
+<script src="https://www.nutritionsociety.org/sites/all/modules/civicrm/bower_components/jquery-ui/jquery-ui.min.js?qoofk6"></script>
+<script src="https://www.nutritionsociety.org/sites/all/modules/civicrm/bower_components/lodash-compat/lodash.min.js?qoofk6"></script>
+<script src="https://www.nutritionsociety.org/sites/all/modules/civicrm/packages/jquery/plugins/jquery.mousewheel.min.js?qoofk6"></script>
+<script src="https://www.nutritionsociety.org/sites/all/modules/civicrm/bower_components/select2/select2.min.js?qoofk6"></script>
+<script src="https://www.nutritionsociety.org/sites/all/modules/civicrm/packages/jquery/plugins/jquery.form.min.js?qoofk6"></script>
+<script src="https://www.nutritionsociety.org/sites/all/modules/civicrm/packages/jquery/plugins/jquery.timeentry.min.js?qoofk6"></script>
+<script src="https://www.nutritionsociety.org/sites/all/modules/civicrm/packages/jquery/plugins/jquery.blockUI.min.js?qoofk6"></script>
+<script src="https://www.nutritionsociety.org/sites/all/modules/civicrm/bower_components/datatables/media/js/jquery.dataTables.min.js?qoofk6"></script>
+<script src="https://www.nutritionsociety.org/sites/all/modules/civicrm/bower_components/jquery-validation/dist/jquery.validate.min.js?qoofk6"></script>
+<script src="https://www.nutritionsociety.org/sites/all/modules/civicrm/bower_components/jquery-validation/dist/additional-methods.min.js?qoofk6"></script>
+<script src="https://www.nutritionsociety.org/sites/all/modules/civicrm/packages/jquery/plugins/jquery.ui.datepicker.validation.min.js?qoofk6"></script>
+<script src="https://www.nutritionsociety.org/sites/all/modules/civicrm/js/Common.js?qoofk6"></script>
+<script src="https://www.nutritionsociety.org/sites/all/modules/civicrm/js/crm.datepicker.js?qoofk6"></script>
+<script src="https://www.nutritionsociety.org/sites/all/modules/civicrm/js/crm.ajax.js?qoofk6"></script>
+<script src="https://www.nutritionsociety.org/sites/all/modules/civicrm/js/wysiwyg/crm.wysiwyg.js?qoofk6"></script>
+<script src="/civicrm/ajax/l10n-js/en_US?cid=&amp;r=52K7H"></script>
+<script src="https://www.nutritionsociety.org/sites/default/files/civicrm/persist/contribute/dyn/crm.payment.d62d8fd189cb8842c20d25b8b4b4e319.js?qoofk6"></script>
+<script src="https://www.nutritionsociety.org/sites/all/modules/civicrm/js/noconflict.js?qoofk6"></script>
+<script src="https://www.nutritionsociety.org/sites/all/modules/nutrition_custom/js/nutrition_custom.js?qoofk6"></script>
+<script src="https://www.nutritionsociety.org/sites/all/libraries/colorbox/jquery.colorbox-min.js?qoofk6"></script>
+<script src="https://www.nutritionsociety.org/sites/all/modules/colorbox/js/colorbox.js?qoofk6"></script>
+<script src="https://www.nutritionsociety.org/sites/all/modules/colorbox/styles/default/colorbox_style.js?qoofk6"></script>
+<script src="https://www.nutritionsociety.org/sites/all/modules/custom_search/js/custom_search.js?qoofk6"></script>
+<script src="https://www.nutritionsociety.org/sites/all/modules/responsive_menus/styles/responsive_menus_simple/js/responsive_menus_simple.js?qoofk6"></script>
+<script src="https://www.nutritionsociety.org/sites/all/modules/google_analytics/googleanalytics.js?qoofk6"></script>
+<script>(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","https://www.google-analytics.com/analytics.js","ga");ga("create", "UA-4398902-1", {"cookieDomain":"auto"});ga("set", "anonymizeIp", true);ga("send", "pageview");</script>
+<script src="https://www.nutritionsociety.org/sites/all/themes/nutrition_society/js/nutrition-society.behaviors.js?qoofk6"></script>
+<script src="https://www.nutritionsociety.org/sites/all/themes/nutrition_society/js/fix-slick-slider-arrows.js?qoofk6"></script>
+<script src="https://www.nutritionsociety.org/sites/all/themes/nutrition_society/js/custom.js?qoofk6"></script>
+<script src="https://www.nutritionsociety.org/sites/all/themes/nutrition_society/js/member-area.js?qoofk6"></script>
+<script>jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","colorbox":{"opacity":"0.85","current":"{current} of {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"Close","maxWidth":"98%","maxHeight":"98%","fixed":true,"mobiledetect":true,"mobiledevicewidth":"480px"},"custom_search":{"form_target":"_self","solr":0},"nice_menus_options":{"delay":"800","speed":"normal"},"responsive_menus":[{"toggler_text":"\u2630 Menu","selectors":[".nice-menu-main-menu"],"media_size":"960","media_unit":"px","absolute":"1","remove_attributes":"1","responsive_menus_style":"responsive_menus_simple"}],"eu_cookie_compliance":{"cookie_policy_version":"1.0.0","popup_enabled":1,"popup_agreed_enabled":0,"popup_hide_agreed":0,"popup_clicking_confirmation":false,"popup_scrolling_confirmation":false,"popup_html_info":"\u003Cdiv class=\u0022eu-cookie-compliance-banner eu-cookie-compliance-banner-info eu-cookie-compliance-banner--opt-in\u0022\u003E\n  \u003Cdiv class=\u0022popup-content info\u0022\u003E\n    \u003Cdiv id=\u0022popup-text\u0022\u003E\n      \u003Ch2\u003EYou have a choice regarding the use of cookies on this website.\u00a0\u003C\/h2\u003E\u003Cp\u003EWe use cookies to optimise site functionality and enhance your experience.\u00a0\u00a0\u003C\/p\u003E              \u003Cbutton type=\u0022button\u0022 class=\u0022find-more-button eu-cookie-compliance-more-button\u0022\u003ETo find out more, read the Society\u0027s Cookie Policy\u003C\/button\u003E\n          \u003C\/div\u003E\n    \n    \u003Cdiv id=\u0022popup-buttons\u0022 class=\u0022\u0022\u003E\n      \u003Cbutton type=\u0022button\u0022 class=\u0022agree-button eu-cookie-compliance-secondary-button\u0022\u003EI agree\u003C\/button\u003E\n              \u003Cbutton type=\u0022button\u0022 class=\u0022decline-button eu-cookie-compliance-default-button\u0022 \u003EI disagree\u003C\/button\u003E\n          \u003C\/div\u003E\n  \u003C\/div\u003E\n\u003C\/div\u003E","use_mobile_message":false,"mobile_popup_html_info":"\u003Cdiv class=\u0022eu-cookie-compliance-banner eu-cookie-compliance-banner-info eu-cookie-compliance-banner--opt-in\u0022\u003E\n  \u003Cdiv class=\u0022popup-content info\u0022\u003E\n    \u003Cdiv id=\u0022popup-text\u0022\u003E\n      \u003Ch2\u003EWe use cookies on this site to enhance your user experience\u003C\/h2\u003E\u003Cp\u003EBy tapping the Accept button, you agree to us doing so.\u003C\/p\u003E              \u003Cbutton type=\u0022button\u0022 class=\u0022find-more-button eu-cookie-compliance-more-button\u0022\u003ETo find out more, read the Society\u0027s Cookie Policy\u003C\/button\u003E\n          \u003C\/div\u003E\n    \n    \u003Cdiv id=\u0022popup-buttons\u0022 class=\u0022\u0022\u003E\n      \u003Cbutton type=\u0022button\u0022 class=\u0022agree-button eu-cookie-compliance-secondary-button\u0022\u003EI agree\u003C\/button\u003E\n              \u003Cbutton type=\u0022button\u0022 class=\u0022decline-button eu-cookie-compliance-default-button\u0022 \u003EI disagree\u003C\/button\u003E\n          \u003C\/div\u003E\n  \u003C\/div\u003E\n\u003C\/div\u003E\n","mobile_breakpoint":"768","popup_html_agreed":"\u003Cdiv\u003E\n  \u003Cdiv class=\u0022popup-content agreed\u0022\u003E\n    \u003Cdiv id=\u0022popup-text\u0022\u003E\n      \u003Ch2\u003EThank you for accepting cookies\u003C\/h2\u003E\u003Cp\u003EYou can now hide this message or find out more about cookies.\u003C\/p\u003E    \u003C\/div\u003E\n    \u003Cdiv id=\u0022popup-buttons\u0022\u003E\n      \u003Cbutton type=\u0022button\u0022 class=\u0022hide-popup-button eu-cookie-compliance-hide-button\u0022\u003EHide\u003C\/button\u003E\n              \u003Cbutton type=\u0022button\u0022 class=\u0022find-more-button eu-cookie-compliance-more-button-thank-you\u0022 \u003EMore info\u003C\/button\u003E\n          \u003C\/div\u003E\n  \u003C\/div\u003E\n\u003C\/div\u003E","popup_use_bare_css":false,"popup_height":"auto","popup_width":"100%","popup_delay":1000,"popup_link":"https:\/\/www.nutritionsociety.org\/cookie-policy","popup_link_new_window":1,"popup_position":null,"fixed_top_position":1,"popup_language":"en","store_consent":false,"better_support_for_screen_readers":0,"reload_page":0,"domain":"","domain_all_sites":0,"popup_eu_only_js":0,"cookie_lifetime":"100","cookie_session":false,"disagree_do_not_show_popup":0,"method":"opt_in","allowed_cookies":"","withdraw_markup":"\u003Cbutton type=\u0022button\u0022 class=\u0022eu-cookie-withdraw-tab\u0022\u003EPrivacy settings\u003C\/button\u003E\n\u003Cdiv class=\u0022eu-cookie-withdraw-banner\u0022\u003E\n  \u003Cdiv class=\u0022popup-content info\u0022\u003E\n    \u003Cdiv id=\u0022popup-text\u0022\u003E\n      \u003Ch2\u003EWe use cookies on this site to enhance your user experience.\u003C\/h2\u003E\u003Cp\u003EYou have given your consent for us to set cookies.\u003C\/p\u003E    \u003C\/div\u003E\n    \u003Cdiv id=\u0022popup-buttons\u0022\u003E\n      \u003Cbutton type=\u0022button\u0022 class=\u0022eu-cookie-withdraw-button\u0022\u003EWithdraw consent\u003C\/button\u003E\n    \u003C\/div\u003E\n  \u003C\/div\u003E\n\u003C\/div\u003E\n","withdraw_enabled":false,"withdraw_button_on_info_popup":0,"cookie_categories":[],"cookie_categories_details":[],"enable_save_preferences_button":1,"cookie_name":"","containing_element":"body","automatic_cookies_removal":1},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip","trackColorbox":1},"urlIsAjaxTrusted":{"\/membership-full":true}});</script>
+</head>
+<body class="html not-front not-logged-in page-civicrm page-civicrm-contribute page-civicrm-contribute-transact section-civicrm">
+  <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+    <div class="l-page l-page--has-no-sidebars">
+  <header class="l-header" role="banner">
+    <div class="l-header_inner">
+      <div class="l-branding l-region">
+        <div class="l-branding__inner">
+                      <a href="/" title="Home" rel="home" class="site-logo"><img src="https://www.nutritionsociety.org/sites/all/themes/nutrition_society/logo.png" alt="Home" /></a>
+          
+          
+                  </div>
+      </div>
+
+      <div class="l-user">
+        <div class="l-user__inner">
+            <div class="l-region l-region--header">
+    <div id="block-gtranslate-gtranslate" class="block block--gtranslate block--gtranslate-gtranslate">
+        <div class="block__content">
+    <script type="text/javascript">
+/* <![CDATA[ */
+eval(unescape("eval%28function%28p%2Ca%2Cc%2Ck%2Ce%2Cr%29%7Be%3Dfunction%28c%29%7Breturn%28c%3Ca%3F%27%27%3Ae%28parseInt%28c/a%29%29%29+%28%28c%3Dc%25a%29%3E35%3FString.fromCharCode%28c+29%29%3Ac.toString%2836%29%29%7D%3Bif%28%21%27%27.replace%28/%5E/%2CString%29%29%7Bwhile%28c--%29r%5Be%28c%29%5D%3Dk%5Bc%5D%7C%7Ce%28c%29%3Bk%3D%5Bfunction%28e%29%7Breturn%20r%5Be%5D%7D%5D%3Be%3Dfunction%28%29%7Breturn%27%5C%5Cw+%27%7D%3Bc%3D1%7D%3Bwhile%28c--%29if%28k%5Bc%5D%29p%3Dp.replace%28new%20RegExp%28%27%5C%5Cb%27+e%28c%29+%27%5C%5Cb%27%2C%27g%27%29%2Ck%5Bc%5D%29%3Breturn%20p%7D%28%276%207%28a%2Cb%29%7Bn%7B4%282.9%29%7B3%20c%3D2.9%28%22o%22%29%3Bc.p%28b%2Cf%2Cf%29%3Ba.q%28c%29%7Dg%7B3%20c%3D2.r%28%29%3Ba.s%28%5C%27t%5C%27+b%2Cc%29%7D%7Du%28e%29%7B%7D%7D6%20h%28a%29%7B4%28a.8%29a%3Da.8%3B4%28a%3D%3D%5C%27%5C%27%29v%3B3%20b%3Da.w%28%5C%27%7C%5C%27%29%5B1%5D%3B3%20c%3B3%20d%3D2.x%28%5C%27y%5C%27%29%3Bz%283%20i%3D0%3Bi%3Cd.5%3Bi++%294%28d%5Bi%5D.A%3D%3D%5C%27B-C-D%5C%27%29c%3Dd%5Bi%5D%3B4%282.j%28%5C%27k%5C%27%29%3D%3DE%7C%7C2.j%28%5C%27k%5C%27%29.l.5%3D%3D0%7C%7Cc.5%3D%3D0%7C%7Cc.l.5%3D%3D0%29%7BF%286%28%29%7Bh%28a%29%7D%2CG%29%7Dg%7Bc.8%3Db%3B7%28c%2C%5C%27m%5C%27%29%3B7%28c%2C%5C%27m%5C%27%29%7D%7D%27%2C43%2C43%2C%27%7C%7Cdocument%7Cvar%7Cif%7Clength%7Cfunction%7CGTranslateFireEvent%7Cvalue%7CcreateEvent%7C%7C%7C%7C%7C%7Ctrue%7Celse%7CdoGTranslate%7C%7CgetElementById%7Cgoogle_translate_element2%7CinnerHTML%7Cchange%7Ctry%7CHTMLEvents%7CinitEvent%7CdispatchEvent%7CcreateEventObject%7CfireEvent%7Con%7Ccatch%7Creturn%7Csplit%7CgetElementsByTagName%7Cselect%7Cfor%7CclassName%7Cgoog%7Cte%7Ccombo%7Cnull%7CsetTimeout%7C500%27.split%28%27%7C%27%29%2C0%2C%7B%7D%29%29"))
+/* ]]> */
+</script><style type="text/css">
+<!--
+#goog-gt-tt {display:none !important;}
+
+.goog-te-banner-frame {display:none !important;}
+
+.goog-te-menu-value:hover {text-decoration:none !important;}
+
+body {top:0 !important;}
+
+#google_translate_element2 {display:none!important;}
+-->
+</style><div id="google_translate_element2"></div>
+<script type="text/javascript">function googleTranslateElementInit2() {new google.translate.TranslateElement({pageLanguage: 'en', autoDisplay: false}, 'google_translate_element2');}</script>
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit2"></script><select onchange="doGTranslate(this);"><option value="">Select Language</option><option value="en|en" style="font-weight:bold;background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -0px;padding-left:18px;">English</option><option value="en|af" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -688px;padding-left:18px;">Afrikaans</option><option value="en|sq" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -560px;padding-left:18px;">Albanian</option><option value="en|am" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1456px;padding-left:18px;">Amharic</option><option value="en|ar" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -16px;padding-left:18px;">Arabic</option><option value="en|hy" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -832px;padding-left:18px;">Armenian</option><option value="en|az" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -848px;padding-left:18px;">Azerbaijani</option><option value="en|eu" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -864px;padding-left:18px;">Basque</option><option value="en|be" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -768px;padding-left:18px;">Belarusian</option><option value="en|bn" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -928px;padding-left:18px;">Bengali</option><option value="en|bs" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -944px;padding-left:18px;">Bosnian</option><option value="en|bg" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -32px;padding-left:18px;">Bulgarian</option><option value="en|ca" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -384px;padding-left:18px;">Catalan</option><option value="en|ceb" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -960px;padding-left:18px;">Cebuano</option><option value="en|ny" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1312px;padding-left:18px;">Chichewa</option><option value="en|zh-CN" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -48px;padding-left:18px;">Chinese (Simplified)</option><option value="en|zh-TW" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -64px;padding-left:18px;">Chinese (Traditional)</option><option value="en|co" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1472px;padding-left:18px;">Corsican</option><option value="en|hr" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -80px;padding-left:18px;">Croatian</option><option value="en|cs" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -96px;padding-left:18px;">Czech</option><option value="en|da" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -112px;padding-left:18px;">Danish</option><option value="en|nl" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -128px;padding-left:18px;">Dutch</option><option value="en|eo" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -976px;padding-left:18px;">Esperanto</option><option value="en|et" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -576px;padding-left:18px;">Estonian</option><option value="en|tl" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -400px;padding-left:18px;">Filipino</option><option value="en|fi" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -144px;padding-left:18px;">Finnish</option><option value="en|fr" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -160px;padding-left:18px;">French</option><option value="en|fy" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1632px;padding-left:18px;">Frisian</option><option value="en|gl" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -592px;padding-left:18px;">Galician</option><option value="en|ka" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -880px;padding-left:18px;">Georgian</option><option value="en|de" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -176px;padding-left:18px;">German</option><option value="en|el" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -192px;padding-left:18px;">Greek</option><option value="en|gu" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -992px;padding-left:18px;">Gujarati</option><option value="en|ht" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -896px;padding-left:18px;">Haitian Creole</option><option value="en|ha" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1008px;padding-left:18px;">Hausa</option><option value="en|haw" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1488px;padding-left:18px;">Hawaiian</option><option value="en|iw" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -416px;padding-left:18px;">Hebrew</option><option value="en|hi" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -208px;padding-left:18px;">Hindi</option><option value="en|hmn" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1024px;padding-left:18px;">Hmong</option><option value="en|hu" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -608px;padding-left:18px;">Hungarian</option><option value="en|is" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -784px;padding-left:18px;">Icelandic</option><option value="en|ig" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1040px;padding-left:18px;">Igbo</option><option value="en|id" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -432px;padding-left:18px;">Indonesian</option><option value="en|ga" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -736px;padding-left:18px;">Irish</option><option value="en|it" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -224px;padding-left:18px;">Italian</option><option value="en|ja" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -240px;padding-left:18px;">Japanese</option><option value="en|jw" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1056px;padding-left:18px;">Javanese</option><option value="en|kn" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1072px;padding-left:18px;">Kannada</option><option value="en|kk" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1328px;padding-left:18px;">Kazakh</option><option value="en|km" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1088px;padding-left:18px;">Khmer</option><option value="en|ko" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -256px;padding-left:18px;">Korean</option><option value="en|ku" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1504px;padding-left:18px;">Kurdish (Kurmanji)</option><option value="en|ky" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1520px;padding-left:18px;">Kyrgyz</option><option value="en|lo" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1104px;padding-left:18px;">Lao</option><option value="en|la" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1120px;padding-left:18px;">Latin</option><option value="en|lv" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -448px;padding-left:18px;">Latvian</option><option value="en|lt" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -464px;padding-left:18px;">Lithuanian</option><option value="en|lb" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1536px;padding-left:18px;">Luxembourgish</option><option value="en|mk" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -800px;padding-left:18px;">Macedonian</option><option value="en|mg" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1344px;padding-left:18px;">Malagasy</option><option value="en|ms" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -704px;padding-left:18px;">Malay</option><option value="en|ml" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1360px;padding-left:18px;">Malayalam</option><option value="en|mt" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -624px;padding-left:18px;">Maltese</option><option value="en|mi" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1136px;padding-left:18px;">Maori</option><option value="en|mr" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1152px;padding-left:18px;">Marathi</option><option value="en|mn" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1168px;padding-left:18px;">Mongolian</option><option value="en|my" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1296px;padding-left:18px;">Myanmar (Burmese)</option><option value="en|ne" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1184px;padding-left:18px;">Nepali</option><option value="en|no" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -272px;padding-left:18px;">Norwegian</option><option value="en|ps" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1552px;padding-left:18px;">Pashto</option><option value="en|fa" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -672px;padding-left:18px;">Persian</option><option value="en|pl" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -288px;padding-left:18px;">Polish</option><option value="en|pt" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -304px;padding-left:18px;">Portuguese</option><option value="en|pa" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1200px;padding-left:18px;">Punjabi</option><option value="en|ro" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -320px;padding-left:18px;">Romanian</option><option value="en|ru" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -336px;padding-left:18px;">Russian</option><option value="en|sm" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1568px;padding-left:18px;">Samoan</option><option value="en|gd" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1584px;padding-left:18px;">Scottish Gaelic</option><option value="en|sr" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -480px;padding-left:18px;">Serbian</option><option value="en|st" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1392px;padding-left:18px;">Sesotho</option><option value="en|sn" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1600px;padding-left:18px;">Shona</option><option value="en|sd" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1616px;padding-left:18px;">Sindhi</option><option value="en|si" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1376px;padding-left:18px;">Sinhala</option><option value="en|sk" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -496px;padding-left:18px;">Slovak</option><option value="en|sl" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -512px;padding-left:18px;">Slovenian</option><option value="en|so" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1216px;padding-left:18px;">Somali</option><option value="en|es" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -352px;padding-left:18px;">Spanish</option><option value="en|su" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1408px;padding-left:18px;">Sudanese</option><option value="en|sw" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -720px;padding-left:18px;">Swahili</option><option value="en|sv" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -368px;padding-left:18px;">Swedish</option><option value="en|tg" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1424px;padding-left:18px;">Tajik</option><option value="en|ta" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1232px;padding-left:18px;">Tamil</option><option value="en|te" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1248px;padding-left:18px;">Telugu</option><option value="en|th" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -640px;padding-left:18px;">Thai</option><option value="en|tr" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -656px;padding-left:18px;">Turkish</option><option value="en|uk" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -528px;padding-left:18px;">Ukrainian</option><option value="en|ur" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -912px;padding-left:18px;">Urdu</option><option value="en|uz" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1440px;padding-left:18px;">Uzbek</option><option value="en|vi" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -544px;padding-left:18px;">Vietnamese</option><option value="en|cy" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -752px;padding-left:18px;">Welsh</option><option value="en|xh" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1648px;padding-left:18px;">Xhosa</option><option value="en|yi" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -816px;padding-left:18px;">Yiddish</option><option value="en|yo" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1264px;padding-left:18px;">Yoruba</option><option value="en|zu" style="background:url('/sites/all/modules/gtranslate/gtranslate-files/16l.png') no-repeat scroll 0 -1280px;padding-left:18px;">Zulu</option></select>  </div>
+</div>
+<nav id="block-menu-block-3" role="navigation" class="block block--menu-block block--menu-block-3">
+      
+  <div class="menu-block-wrapper menu-block-3 menu-name-menu-top-menu parent-mlid-0 menu-level-1">
+  <ul class="menu"><li class="first leaf menu-mlid-9646"><a href="/societys-archive" title="" class="menu-node-unpublished menu-node-unpublished">The Society&#039;s Archive</a></li>
+<li class="last leaf menu-mlid-9649"><a href="https://jobs.nutritionsociety.org/" title="">Jobs</a></li>
+</ul></div>
+</nav>
+<div id="block-search-form" role="search" class="block block--search block--search-form">
+        <div class="block__content">
+    <form class="search-form search-block-form" role="search" action="/membership-full" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+      <h2 class="element-invisible">Search form</h2>
+    <div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--2">Search this site </label>
+ <input title="" class="custom-search-box form-text" placeholder="Search" type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions"><input alt="Search" class="custom-search-button form-submit" type="image" id="edit-submit" name="op" src="https://www.nutritionsociety.org/sites/default/files/custom_search/search_0_0.png" /></div><input type="hidden" name="form_build_id" value="form-1jUw0gLTlwFBmdK2xplEkjvTapyylEchOWTpqOmikzM" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>  </div>
+</div>
+<nav id="block-system-user-menu" role="navigation" class="block block--system block--menu block--system-user-menu">
+      
+  <ul class="menu"><li class="first last leaf"><a href="/user/login?destination=member-area" title="">My Membership login</a></li>
+</ul></nav>
+  </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="l-navigation">
+      <div class="l-navigation__inner">
+          <div class="l-region l-region--navigation">
+    <div id="block-nice-menus-1" class="block block--nice-menus block--nice-menus-1">
+        <div class="block__content">
+    <ul class="nice-menu nice-menu-down nice-menu-main-menu" id="nice-menu-1"><li class="menu-554 menuparent  menu-path-node-1 first odd "><a href="/about">About Us</a><ul><li class="menu-606  menu-path-node-14 first odd "><a href="/governance">Governance</a></li>
+<li class="menu-5777 menu-path-node-661  even "><a href="/strategic-plan-2016-2021">Strategic Plan</a></li>
+<li class="menu-9701  menu-path-node-857  odd "><a href="/people">People</a></li>
+<li class="menu-566  menu-path-node-8  even "><a href="/history">History</a></li>
+<li class="menu-997 menu-path-node-135  odd "><a href="/memorandum-understanding">Memorandum of Understanding</a></li>
+<li class="menu-3611 menu-path-node-495  even last"><a href="/watch-video-about-us">Watch a video about us</a></li>
+</ul></li>
+<li class="menu-558 menuparent  menu-path-publications  even "><a href="/publications">Publications</a><ul><li class="menu-608  menu-path-taxonomy-term-3 first odd "><a href="/publications/journals" title="">Journals</a></li>
+<li class="menu-784 menu-path-papers  even "><a href="/papers" title="">Paper of the Month</a></li>
+<li class="menu-609 menu-path-taxonomy-term-4  odd "><a href="/publications/textbooks" title="">Textbooks</a></li>
+<li class="menu-6978 menu-path-taxonomy-term-55  even last"><a href="/publications/gazette" title="">The Gazette</a></li>
+</ul></li>
+<li class="menu-555 menuparent  menu-path-node-2  odd "><a href="/membership">Membership</a><ul><li class="menu-615 menu-path-node-29 first odd "><a href="/membership-benefits">Membership Benefits</a></li>
+<li class="menu-616 menu-path-node-30  even "><a href="/types-membership">Types of Membership</a></li>
+<li class="menu-617 menu-path-node-31  odd "><a href="/become-member">Become a Member</a></li>
+<li class="menu-619 menu-path-node-32  even "><a href="/renew-your-membership">Renew Your Membership</a></li>
+<li class="menu-991  menu-path-node-134  odd "><a href="/opportunities-become-involved">Become involved</a></li>
+<li class="menu-11740 menu-path-node-1108  even last"><a href="/member-connect">Member-Connect</a></li>
+</ul></li>
+<li class="menu-9709 menuparent  menu-path-node-827  even "><a href="/conferences">Conferences</a><ul><li class="menu-9710 menu-path-node-828 first odd "><a href="/conferences/conferences">Upcoming Conferences</a></li>
+<li class="menu-9711 menu-path-node-829  even "><a href="/conferences/external-events">External Events</a></li>
+<li class="menu-11715  menu-path-node-1008  odd "><a href="/conferences/bid-conference" class="menu-node-unpublished menu-node-unpublished menu-node-unpublished menu-node-unpublished menu-node-unpublished menu-node-unpublished">Bid for a Conference</a></li>
+<li class="menu-11720 menu-path-node-1016  even last"><a href="/conferences/past-conferences" class="menu-node-unpublished menu-node-unpublished menu-node-unpublished menu-node-unpublished menu-node-unpublished menu-node-unpublished menu-node-unpublished menu-node-unpublished menu-node-unpublished menu-node-unpublished menu-node-unpublished menu-node-unpublished menu-node-unpublished menu-node-unpublished menu-node-unpublished">Past Conferences</a></li>
+</ul></li>
+<li class="menu-9695 menuparent  menu-path-node-819  odd "><a href="/training-academy" class="menu-node-unpublished">Training Academy</a><ul><li class="menu-9696 menu-path-node-825 first odd "><a href="/training-academy/webinars-and-workshops" class="menu-node-unpublished menu-node-unpublished menu-node-unpublished">Webinars &amp; Workshops</a></li>
+<li class="menu-9697 menu-path-node-826  even "><a href="/demand-webinars" class="menu-node-unpublished menu-node-unpublished menu-node-unpublished">On Demand Webinars</a></li>
+<li class="menu-9699 menu-path-node-823  odd last"><a href="/training-academy/support">Career Support</a></li>
+</ul></li>
+<li class="menu-9716 menuparent  menu-path-node-862  even "><a href="/awards-and-grants">Awards and Grants</a><ul><li class="menu-9723  menu-path-node-863 first odd "><a href="/awards-0">Awards</a></li>
+<li class="menu-9722  menu-path-node-864  even "><a href="/grants-0" class="menu-node-unpublished">Grants</a></li>
+<li class="menu-9724  menu-path-node-865  odd last"><a href="/partner-grants">Partner Grants</a></li>
+</ul></li>
+<li class="menu-557 menuparent  menu-path-node-833  odd last"><a href="/news" title="" class="menu-node-unpublished menu-node-unpublished menu-node-unpublished">News</a><ul><li class="menu-1004 menu-path-news-blog first odd "><a href="/news/blog">Blog</a></li>
+<li class="menu-9664 menu-path-node-834  even "><a href="/news/announcements" title="">Announcements</a></li>
+<li class="menu-9663 menu-path-node-836  odd last"><a href="/news/policy">Policy</a></li>
+</ul></li>
+</ul>
+  </div>
+</div>
+  </div>
+              </div>
+    </div>
+  </header>
+
+      <div class="l-breadcrumb">
+      <div class="l-breadcrumb__inner">
+          <div class="l-region l-region--breadcrumb">
+    <div id="block-delta-blocks-breadcrumb" class="block block--delta-blocks block--delta-blocks-breadcrumb">
+        <div class="block__content">
+    <div id="breadcrumb" class="clearfix"><ul class="breadcrumb"><li class="depth-1 odd first"><a href="/">Home</a></li><li class="depth-2 even last"><a href="/civicrm/contribute/transact" class="active">Full Membership</a></li></ul></div>  </div>
+</div>
+  </div>
+      </div>
+    </div>
+  
+  <div class="l-main">
+        <div class="l-content l-region" role="main">
+      <a id="main-content"></a>
+                    <h1 class="page__title">Full Membership</h1>
+                                          
+<div id="crm-container" class="crm-container crm-public" lang="en" xml:lang="en">
+
+
+
+<div class="clear"></div>
+
+<div id="crm-main-content-wrapper">
+              <form  action="/civicrm/contribute/transact" method="post" name="Main" id="Main" class="CRM_Contribute_Form_Contribution_Main" enctype="multipart/form-data" data-warn-changes="true" >
+  
+      
+  <div><input name="qfKey" type="hidden" value="5ece161f126cd28b8227d6b174f3158a85be5410ccbd119485b72dc6ad124f91_2313" />
+<input name="priceSetId" type="hidden" value="44" />
+<input id="selectProduct" name="selectProduct" type="hidden" value="" />
+<input name="cms_create_account" type="hidden" value="1" />
+<input name="_qf_default" type="hidden" value="Main:upload" />
+<input name="MAX_FILE_SIZE" type="hidden" value="41943040" />
+</div>
+
+
+
+    
+  <script type="text/javascript">
+
+    // Putting these functions directly in template so they are available for standalone forms
+    function useAmountOther() {
+      var priceset = 0;
+
+      for( i=0; i < document.Main.elements.length; i++ ) {
+        element = document.Main.elements[i];
+        if ( element.type == 'radio' && element.name == priceset ) {
+          if (element.value == '0' ) {
+            element.click();
+          }
+          else {
+            element.checked = false;
+          }
+        }
+      }
+    }
+
+    function clearAmountOther() {
+      var priceset = 0
+      if( priceset ){
+        cj(priceset).val('');
+        cj(priceset).blur();
+      }
+      if (document.Main.amount_other == null) return; // other_amt field not present; do nothing
+      document.Main.amount_other.value = "";
+    }
+
+  </script>
+
+
+  
+  
+    
+  <div class="crm-contribution-page-id-10 crm-block crm-contribution-main-form-block">
+
+            
+    <div id="intro_text" class="crm-public-form-item crm-section intro_text-section">
+      <p><strong>Full Membership</strong> is for members employed within a nutrition related field, or where members have a keen interest in nutrition science, but are not necessarily employed within a nutrition related field.</p>
+    </div>
+    
+    
+          <div class="crm-public-form-item crm-section">
+          <div id="membership" class="crm-group membership-group">
+          <div id="priceset">
+        <fieldset>
+                                                                                                      
+          <div class="crm-public-form-item crm-section cividiscount-section cividiscount">
+      <div class="label"><label for="discountcode">Discount code (if you have been given one)</label></div>
+      <div class="content"><input class="description crm-form-text" name="discountcode" type="text" id="discountcode" /></div>
+      <div class="label"></div>
+      <div class="content"><button formnovalidate="1" type="submit" class="crm-form-submit" name="_qf_Main_reload" id="_qf_Main_reload">Apply</button></div>
+    <div class="clear"></div>
+</div>
+<div id="priceset" class="crm-section price_set-section">
+    
+        
+                                            <div class="crm-section membership_amount-section">
+                                        <div class="label"><label>  Membership Type
+     <span class="crm-marker" title="This field is required.">*</span>
+
+</label></div>
+              <div class="content membership_amount-content">
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <div class="price-set-row membership_amount-row1">
+                                        <span class="price-set-option-content"><input price="[&quot;price_99&quot;,&quot;60||&quot;]" data-amount="60.00" data-currency="GBP" data-price-field-values="{&quot;214&quot;:{&quot;id&quot;:&quot;214&quot;,&quot;price_field_id&quot;:&quot;99&quot;,&quot;name&quot;:&quot;Full_Member&quot;,&quot;label&quot;:&quot;Full Member&quot;,&quot;description&quot;:&quot;Full Member&quot;,&quot;amount&quot;:&quot;60.00&quot;,&quot;weight&quot;:&quot;1&quot;,&quot;membership_type_id&quot;:&quot;1&quot;,&quot;membership_num_terms&quot;:&quot;1&quot;,&quot;is_default&quot;:&quot;1&quot;,&quot;is_active&quot;:&quot;1&quot;,&quot;financial_type_id&quot;:&quot;2&quot;,&quot;non_deductible_amount&quot;:&quot;0.00&quot;,&quot;visibility_id&quot;:&quot;1&quot;}}" visibility="1" onclick="return showHideAutoRenew(1);" membership-type="1" value="214" type="radio" id="CIVICRM_QFID_214_12" name="price_99" checked="checked" class="crm-form-radio" /><label for="CIVICRM_QFID_214_12"><span class="crm-price-amount-label">Full Member<span class="crm-price-amount-label-separator">&nbsp;-&nbsp;</span></span><span class="crm-price-amount-amount">£ 60.00</span></label></span>
+                                          </div>
+                                                                                                          </div>
+                                                            <div id="allow_auto_renew">
+                    <div class='crm-section auto-renew'>
+                      <div class='label'></div>
+                      <div class='content' id="auto_renew_section">
+                                                  <input id="auto_renew" name="auto_renew" type="checkbox" value="1" class="crm-form-checkbox" />&nbsp;<label for="auto_renew">Please renew my membership automatically.</label>
+                                              </div>
+                      <div class='content' id="force_renew" style='display: none'>Membership will renew automatically.</div>
+                    </div>
+                  </div>
+                                            <div class="clear"></div>
+          </div>
+            
+    
+    
+<div id="pricesetTotal" class="crm-section section-pricesetTotal">
+  <div id="pricelabel" class="label hiddenElement">
+          <span id='amount_sum_label'>Total Amount</span>
+      </div>
+  <div class="content calc-value" style="display:none;" id="pricevalue"></div>
+</div>
+
+<script type="text/javascript">
+
+
+var thousandMarker = ',';
+var separator      = '.';
+var symbol         = '£';
+var optionSep      = '|';
+
+// Recalculate the total fees based on user selection
+cj("#priceset [price]").each(function () {
+  var elementType = cj(this).attr('type');
+  if (this.tagName == 'SELECT') {
+    elementType = 'select-one';
+  }
+
+  switch(elementType) {
+    case 'checkbox':
+      cj(this).click(function(){
+        calculateCheckboxLineItemValue(this);
+        display(calculateTotalFee());
+      });
+      calculateCheckboxLineItemValue(this);
+      break;
+
+    case 'radio':
+      cj(this).click( function(){
+        calculateRadioLineItemValue(this);
+        display(calculateTotalFee());
+      });
+      calculateRadioLineItemValue(this);
+      break;
+
+    case 'text':
+      cj(this).bind( 'keyup', function() {
+        calculateText(this);
+      }).bind( 'blur' , function() {
+        calculateText(this);
+      });
+      //default calculation of element.
+      calculateText(this);
+      break;
+
+    case 'select-one':
+      calculateSelectLineItemValue(this);
+
+      cj(this).change(function() {
+        calculateSelectLineItemValue(this);
+        display(calculateTotalFee());
+      });
+      break;
+  }
+
+  display(calculateTotalFee());
+});
+
+/**
+ * Calculate the value of the line item for a radio value.
+ */
+function calculateCheckboxLineItemValue(priceElement) {
+  eval( 'var option = ' + cj(priceElement).attr('price') ) ;
+  optionPart = option[1].split(optionSep);
+  price = parseFloat(0);
+  if (cj(priceElement).prop('checked')) {
+    price = parseFloat(optionPart[0]);
+  }
+  cj(priceElement).data('line_raw_total', price);
+}
+
+/**
+ * Calculate the value of the line item for a radio value.
+ */
+function calculateRadioLineItemValue(priceElement) {
+  eval( 'var option = ' + cj(priceElement).attr('price') );
+  optionPart = option[1].split(optionSep);
+  var lineTotal = parseFloat(optionPart[0]);
+  cj(priceElement).data('line_raw_total', lineTotal);
+  var radionGroupName = cj(priceElement).attr("name");
+  // Reset all unchecked options to having a data value of 0.
+  cj('input[name=' + radionGroupName + ']:radio:unchecked').each(
+    function () {
+      cj(this).data('line_raw_total', 0);
+    }
+  );
+}
+
+/**
+ * Calculate the value of the line item for a select value.
+ */
+function calculateSelectLineItemValue(priceElement) {
+  eval( 'var selectedText = ' + cj(priceElement).attr('price') );
+  var price = parseFloat('0');
+  var option = cj(priceElement).val();
+  if (option) {
+    optionPart = selectedText[option].split(optionSep);
+    price   = parseFloat(optionPart[0]);
+  }
+  cj(priceElement).data('line_raw_total', price);
+}
+
+/**
+ * Calculate the value of the line item for a text box.
+ */
+function calculateText(priceElement) {
+  //CRM-16034 - comma acts as decimal in price set text pricing
+  //CRM-19937 - dollar sign easy mistake to make by users.
+  var textval = parseFloat(cj(priceElement).val().replace(thousandMarker, '').replace(symbol, ''));
+
+  if (isNaN(textval)) {
+    textval = parseFloat(0);
+  }
+  eval('var option = '+ cj(priceElement).attr('price'));
+  optionPart = option[1].split(optionSep);
+  addprice = parseFloat(optionPart[0]);
+  var curval  = textval * addprice;
+  cj(priceElement).data('line_raw_total', curval);
+  display(calculateTotalFee());
+}
+
+/**
+ * Calculate the total fee for the visible priceset.
+ */
+function calculateTotalFee() {
+  var totalFee = 0;
+  cj("#priceset [price]").each(function () {
+    totalFee = totalFee + cj(this).data('line_raw_total');
+  });
+  return totalFee;
+}
+
+/**
+ * Display calculated amount.
+ */
+function display(totalfee) {
+  // totalfee is monetary, round it to 2 decimal points so it can
+  // go as a float - CRM-13491
+  totalfee = Math.round(totalfee*100)/100;
+  var totalFormattedFee = symbol + ' ' + CRM.formatMoney(totalfee, true);
+  cj('#pricevalue').html(totalFormattedFee);
+
+  cj('#total_amount').val( totalfee );
+  cj('#pricevalue').data('raw-total', totalfee).trigger('change');
+
+  if (totalfee < 0) {
+    cj('table#pricelabel').addClass('disabled');
+  }
+  else {
+    cj('table#pricelabel').removeClass('disabled');
+  }
+
+  if (typeof skipPaymentMethod == 'function') {
+    // Advice to anyone who, like me, feels hatred towards this if construct ... if you remove the if you
+    // get an error on participant 2 of a event that requires approval & permits multiple registrants.
+    skipPaymentMethod();
+  }
+}
+
+
+</script>
+</div>
+        </fieldset>
+      </div>
+      </div>
+
+  <script type="text/javascript">
+    CRM.$(function($) {
+      showHideAutoRenew( null );
+    });
+    function showHideAutoRenew( memTypeId )
+    {
+      var priceSetName = "price_"+'99';
+      var considerUserInput = '';
+      if ( memTypeId ) considerUserInput = false;
+      if ( !memTypeId ) memTypeId = cj('input:radio[name='+priceSetName+']:checked').attr('membership-type');
+
+      //does this page has only one membership type.
+      var singleMembership = '';
+      if ( !memTypeId && singleMembership ) memTypeId = cj("input:radio[name="+priceSetName+"]").attr('membership-type');
+      var renewOptions  = {"autoRenewMembershipType_1":"1"};
+      var currentOption = eval( "renewOptions." + 'autoRenewMembershipType_' + memTypeId );
+      var autoRenew = cj('#auto_renew_section');
+      var autoRenewC = cj('input[name="auto_renew"]');
+      var forceRenew = cj("#force_renew");
+
+      var readOnly = false;
+      var isChecked  = false;
+      if ( currentOption == 0 || (typeof currentOption === "undefined")) {
+        isChecked = false;
+        forceRenew.hide();
+        autoRenew.hide();
+      }
+      if ( currentOption == 1 ) {
+        forceRenew.hide();
+        autoRenew.show();
+
+        //uncomment me, if we'd like
+        //to load auto_renew checked.
+        //isChecked = true;
+      } else if ( currentOption == 2 || currentOption == 4) {
+        autoRenew.hide();
+        forceRenew.show();
+        isChecked = readOnly = true;
+      }
+
+      if ( considerUserInput ) isChecked = autoRenew.prop('checked' );
+
+      //its a normal recur contribution.
+      if ( cj( "is_recur" ) &&
+        ( cj( 'input:radio[name="is_recur"]:checked').val() == 1 ) ) {
+        isChecked = false;
+        autoRenew.hide();
+        forceRenew.hide();
+      }
+
+      autoRenewC.attr( 'readonly', readOnly );
+      autoRenewC.prop('checked',  isChecked );
+
+      // We need to trigger the change handler as it won't by default when the element is hidden
+      autoRenewC.trigger('change');
+    }
+
+    
+    CRM.$(function($) {
+      //keep read only always checked.
+      cj( "#auto_renew" ).click(function( ) {
+        if ( cj(this).attr( 'readonly' ) ) {
+          cj(this).prop('checked', true );
+        }
+      });
+    });
+    
+  </script>
+
+      </div>
+    
+                      
+                  
+      <div id='onBehalfOfOrg' class="crm-public-form-item crm-section">
+        
+<div class="crm-public-form-item" id="on-behalf-block">
+      </div>
+
+
+<script type="text/javascript">
+
+  CRM.$(function($) {
+
+    var orgOption = $("input:radio[name=org_option]:checked").attr('id');
+    var onBehalfRequired = '$onBehalfRequired';
+    var onbehalfof_id = $('#onbehalfof_id');
+    var is_for_organization = $('#is_for_organization');
+
+    selectCreateOrg(orgOption, false);
+
+    if (is_for_organization.length) {
+      showHideOnBehalfOfBlock();
+
+      is_for_organization.on('change', function() {
+        showHideOnBehalfOfBlock();
+      });
+    }
+
+    function showHideOnBehalfOfBlock() {
+      $('#on-behalf-block').toggle(is_for_organization.is(':checked'));
+
+      if (is_for_organization.is(':checked')) {
+        $('#onBehalfOfOrg select.crm-select2').removeClass('crm-no-validate');
+      }
+      else {
+        $('#onBehalfOfOrg select.crm-select2').addClass('crm-no-validate');
+      }
+    }
+
+    $("input:radio[name='org_option']").click( function( ) {
+      var orgOption = $(this).attr('id');
+      selectCreateOrg(orgOption, true);
+    });
+
+    onbehalfof_id.change(function() {
+      setLocationDetails($(this).val());
+    }).change();
+
+    if (onbehalfof_id.length) {
+      setLocationDetails(onbehalfof_id.val());
+    }
+
+    function resetValues() {
+      // Don't trip chain-select when clearing values
+      $('.crm-chain-select-control', "#select_org div").select2('val', '');
+      $('input[type=text], select, textarea', "#select_org div").not('.crm-chain-select-control, #onbehalfof_id').val('').change();
+      $('input[type=radio], input[type=checkbox]', "#select_org div").prop('checked', false).change();
+
+      $('#on-behalf-block input').not('input[type=checkbox], input[type=radio], #onbehalfof_id').val('');
+      // clear checkboxes and radio
+      $('#on-behalf-block')
+              .find('input[type=checkbox], input[type=radio]')
+              .not('input[name=org_option]')
+              .attr('checked', false);
+    }
+
+    function selectCreateOrg( orgOption, reset ) {
+      if (orgOption == 'CIVICRM_QFID_0_org_option') {
+        $("#onbehalfof_id").show().change();
+        $("input#onbehalf_organization_name").hide();
+      }
+      else if (orgOption == 'CIVICRM_QFID_1_org_option') {
+        $("input#onbehalf_organization_name").show();
+        $("#onbehalfof_id").hide();
+        reset = true;
+      }
+
+      if ( reset ) {
+        resetValues();
+      }
+    }
+
+    function setLocationDetails(contactID , reset) {
+      resetValues();
+      var locationUrl = '' + contactID;
+      var submittedOnBehalfInfo = '';
+      var submittedCID = "";
+
+      if (submittedOnBehalfInfo) {
+        submittedOnBehalfInfo = $.parseJSON(submittedOnBehalfInfo);
+
+        if (submittedCID == contactID) {
+          $.each(submittedOnBehalfInfo, function(key, value) {
+            //handle checkboxes
+            if (typeof value === 'object') {
+              $.each(value, function(k, v) {
+                $('#onbehalf_' + key + '_' + k).prop('checked', v);
+              });
+            }
+            else if ($('#onbehalf_' + key).length) {
+              $('#onbehalf_' + key ).val(value);
+            }
+            //radio buttons
+            else if ($("input[name='onbehalf[" + key + "]']").length) {
+                $("input[name='onbehalf[" + key + "]']").val([value]);
+              }
+          });
+          return;
+        }
+      }
+
+      $.ajax({
+        url         : locationUrl,
+        dataType    : "json",
+        success     : function(data, status) {
+          for (var ele in data) {
+            if ($("#"+ ele).hasClass('crm-chain-select-target')) {
+              $("#"+ ele).data('newVal', data[ele].value).off('.autofill').on('crmOptionsUpdated.autofill', function() {
+                $(this).off('.autofill').val($(this).data('newVal')).change();
+              });
+            }
+            else if ($('#' + ele).data('select2')) {
+              $('#' + ele).select2('val', data[ele].value);
+            }
+            if (data[ele].type == 'Radio') {
+              if (data[ele].value) {
+                var fldName = ele.replace('onbehalf_', '');
+                $("input[name='onbehalf["+ fldName +"]']").filter("[value='" + data[ele].value + "']").prop('checked', true);
+              }
+            }
+            else if (data[ele].type == 'CheckBox') {
+              for (var selectedOption in data[ele].value) {
+                var fldName = ele.replace('onbehalf_', '');
+                $("input[name='onbehalf["+ fldName+"]["+ selectedOption +"]']").prop('checked','checked');
+              }
+            }
+            else if (data[ele].type == 'AdvMulti-Select') {
+                var customFld = ele.replace('onbehalf_', '');
+                // remove empty value if any
+                $('#onbehalf\\['+ customFld +'\\]-f option[value=""]').remove();
+                $('#onbehalf\\['+ customFld +'\\]-t option[value=""]').remove();
+
+                for (var selectedOption in data[ele].value) {
+                  // remove selected values from left and selected values to right
+                  $('#onbehalf\\['+ customFld +'\\]-f option[value="' + selectedOption + '"]').remove()
+                          .appendTo('#onbehalf\\['+ customFld +'\\]-t');
+                  $('#onbehalf_'+ customFld).val(selectedOption);
+                }
+              }
+              else {
+                // do not set defaults to file type fields
+                if ($('#' + ele).attr('type') != 'file') {
+                  $('#' + ele ).val(data[ele].value).change();
+                }
+              }
+          }
+        },
+        error       : function(XMLHttpRequest, textStatus, errorThrown) {
+          CRM.console('error', "HTTP error status: ", textStatus);
+        }
+      });
+    }
+  });
+
+</script>
+
+      </div>
+
+            <div class="crm-public-form-item crm-section cms_user-section">
+           <fieldset class="crm-group crm_user-group">
+      <div class="messages help cms_user_help-section">
+         Please enter a Username to create an account.      If you already have an account <a href='https://www.nutritionsociety.org/user?destination=civicrm%2Fcontribute%2Ftransact%3Freset%3D1%26id%3D10'>please login</a> before completing this form.      </div>
+      <div> </div>
+      <div id="details" class="crm_user_signup-section">
+
+         <div class="form-layout-compressed">
+           <div class="crm-section cms_name-section">
+             <div class="label">
+               <label for="cms_name"><label for="cms_name">  Username
+     <span class="crm-marker" title="This field is required.">*</span>
+
+</label></label>
+             </div>
+             <div class="content">
+               <input name="cms_name" type="text" id="cms_name" class="crm-form-text required" /> <a id="checkavailability" href="#" onClick="return false;"><strong>Check Availability</strong></a>
+               <span id="msgbox" style="display:none"></span><br />
+               <span class="description">Punctuation is not allowed in a Username with the exception of periods, hyphens and underscores.</span>
+             </div>
+           </div>
+
+                    </div>
+
+     </div>
+   </fieldset>
+
+   
+   <script type="text/javascript">
+   
+      
+   function showMessage( frm )
+   {
+      var cId = '';
+      if ( cId ) {
+   alert('You are logged-in user');
+   frm.checked = false;
+      } else {
+   var siteName = 'https://www.nutritionsociety.org/';
+   alert('Please login if you have an account on this site with the link ' + siteName  );
+      }
+   }
+   
+   
+
+var lastName = null;
+cj("#checkavailability").click(function() {
+   var cmsUserName = cj.trim(cj("#cms_name").val());
+   if ( lastName == cmsUserName) {
+   /*if user checking the same user name more than one times. avoid the ajax call*/
+   return;
+   }
+   /*don't allow special character and for joomla minimum username length is two*/
+
+   var spchar = "\<|\>|\"|\'|\%|\;|\(|\)|\&|\\\\|\/";
+
+   
+   spchar = spchar + "|\~|\`|\:|\!|\=|\#|\$|\^|\*|\{|\}|\\[|\\]|\+|\?|\,";
+   
+   var r = new RegExp( "["+spchar+"]", "i");
+   /*regular expression \\ matches a single backslash. this becomes r = /\\/ or r = new RegExp("\\\\").*/
+   if ( r.exec(cmsUserName) ) {
+   alert('Your username contains invalid characters');
+      return;
+   }
+   
+   if (cmsUserName) {
+   /*take all messages in javascript variable*/
+   var check        = "Checking...";
+   var available    = "This username is currently available.";
+   var notavailable = "This username is taken.";
+   var errorMsg     = "Error checking username. Please reload the form and try again.";
+
+      //remove all the class add the messagebox classes and start fading
+      cj("#msgbox").removeClass().addClass('cmsmessagebox').css({"color":"#000","backgroundColor":"#FFC","border":"1px solid #c93"}).text(check).fadeIn("slow");
+
+      //check the username exists or not from ajax
+   var contactUrl = "/civicrm/ajax/cmsuser";
+
+   var checkUserParams = {
+       cms_name: cj("#cms_name").val(),
+       ts: "1613903055",
+       sig: "02XS_fca28f53a3ecf2bbe8260e423b2065b7",
+       for: 'civicrm/ajax/cmsuser'
+   };
+   cj.post(contactUrl, checkUserParams ,function(data) {
+      if ( data.name == "no") {/*if username not avaiable*/
+         cj("#msgbox").fadeTo(200,0.1,function() {
+      cj(this).html(notavailable).addClass('cmsmessagebox').css({"color":"#CC0000","backgroundColor":"#F7CBCA","border":"1px solid #CC0000"}).fadeTo(900,1);
+         });
+      } else if ( data.name == "error") {/*if username not avaiable*/
+         cj("#msgbox").fadeTo(200,0.1,function() {
+             cj(this).html(errorMsg).addClass('cmsmessagebox').css({"color":"#CC0000","backgroundColor":"#F7CBCA","border":"1px solid #CC0000"}).fadeTo(900,1);
+         });
+      } else {
+         cj("#msgbox").fadeTo(200,0.1,function() {
+      cj(this).html(available).addClass('cmsmessagebox').css({"color":"#008000","backgroundColor":"#C9FFCA", "border": "1px solid #349534"}).fadeTo(900,1);
+         });
+      }
+   }, "json");
+   lastName = cmsUserName;
+   } else {
+   cj("#msgbox").removeClass().text('').css({"backgroundColor":"#FFFFFF", "border": "0px #FFFFFF"}).fadeIn("fast");
+   }
+});
+
+   
+   </script>
+   
+         </div>
+      <div class="crm-public-form-item crm-section premium_block-section">
+              </div>
+
+      
+      <div class="crm-public-form-item crm-group custom_pre_profile-group">
+            
+          
+      
+          <fieldset class="crm-profile crm-profile-id-46 crm-profile-name-Your_Details_46"><legend>Your Details - Membership</legend>
+    
+                  
+                    <div class="crm-section editrow_prefix_id-section form-item" id="editrow-prefix_id">
+        <div class="label">
+          <label for="prefix_id">  Title
+     <span class="crm-marker" title="This field is required.">*</span>
+
+</label>
+        </div>
+        <div class="content">
+          
+                                    <select class="six crm-select2 crm-form-select required" placeholder="" data-option-edit-path="civicrm/admin/options/individual_prefix" data-api-entity="contact" data-api-field="prefix_id" name="prefix_id" id="prefix_id">
+	<option value=""></option>
+	<option value="1">Associate Professor</option>
+	<option value="2">Dr</option>
+	<option value="14">HE Mrs</option>
+	<option value="13">Lord</option>
+	<option value="3">Miss</option>
+	<option value="4">Mr</option>
+	<option value="5">Mrs</option>
+	<option value="6">Ms</option>
+	<option value="7">Professor</option>
+	<option value="8">Reverend</option>
+	<option value="10">M</option>
+	<option value="11">Phd</option>
+	<option value="12">President</option>
+	<option value="15">Sir</option>
+	<option value="16">Lady</option>
+	<option value="17">Assistant Professor</option>
+</select>
+                      
+                            </div>
+        <div class="clear"></div>
+      </div>
+                
+          
+  
+                    <div class="crm-section editrow_first_name-section form-item" id="editrow-first_name">
+        <div class="label">
+          <label for="first_name">  First Name
+     <span class="crm-marker" title="This field is required.">*</span>
+
+</label>
+        </div>
+        <div class="content">
+          
+                                    <input maxlength="64" size="30" name="first_name" type="text" id="first_name" class="big crm-form-text required" />
+                      
+                            </div>
+        <div class="clear"></div>
+      </div>
+                
+          
+  
+                    <div class="crm-section editrow_last_name-section form-item" id="editrow-last_name">
+        <div class="label">
+          <label for="last_name">  Last Name
+     <span class="crm-marker" title="This field is required.">*</span>
+
+</label>
+        </div>
+        <div class="content">
+          
+                                    <input maxlength="64" size="30" name="last_name" type="text" id="last_name" class="big crm-form-text required" />
+                      
+                            </div>
+        <div class="clear"></div>
+      </div>
+                
+          
+  
+                    <div class="crm-section editrow_suffix_id-section form-item" id="editrow-suffix_id">
+        <div class="label">
+          <label for="suffix_id">Suffix</label>
+        </div>
+        <div class="content">
+          
+                                    <select class="six crm-select2 crm-form-select" placeholder="" data-option-edit-path="civicrm/admin/options/individual_suffix" data-api-entity="contact" data-api-field="suffix_id" name="suffix_id" id="suffix_id">
+	<option value=""></option>
+	<option value="1">PhD</option>
+	<option value="2">CBE</option>
+	<option value="3">MBE</option>
+	<option value="4">OBE</option>
+	<option value="5">KCBE</option>
+	<option value="6">RNutr</option>
+	<option value="7">ANutr</option>
+</select>
+                      
+                            </div>
+        <div class="clear"></div>
+      </div>
+                
+          
+  
+                    <div class="crm-section editrow_email-Primary-section form-item" id="editrow-email-Primary">
+        <div class="label">
+          <label for="email-Primary">  Your Email Address
+     <span class="crm-marker" title="This field is required.">*</span>
+
+</label>
+        </div>
+        <div class="content">
+          
+                                    <input maxlength="254" size="30" name="email-Primary" type="text" id="email-Primary" class="big crm-form-text required" />
+                      
+                            </div>
+        <div class="clear"></div>
+      </div>
+                
+          
+  
+                    <div class="crm-section editrow_email-4-section form-item" id="editrow-email-4">
+        <div class="label">
+          <label for="email-4">Alternative Email Address</label>
+        </div>
+        <div class="content">
+          
+                                    <input maxlength="254" size="30" name="email-4" type="text" id="email-4" class="big crm-form-text" />
+                      
+                            </div>
+        <div class="clear"></div>
+      </div>
+                
+          
+  
+                    <div class="crm-section editrow_phone-1-1-section form-item" id="editrow-phone-1-1">
+        <div class="label">
+          <label for="phone-1-1">Phone Number Home</label>
+        </div>
+        <div class="content">
+          
+                                  <input maxlength="32" size="20" name="phone-1-1" type="text" id="phone-1-1" class="medium crm-form-text" />
+                      
+                            </div>
+        <div class="clear"></div>
+      </div>
+                
+          
+  
+                    <div class="crm-section editrow_phone-2-1-section form-item" id="editrow-phone-2-1">
+        <div class="label">
+          <label for="phone-2-1">Phone Number Work</label>
+        </div>
+        <div class="content">
+          
+                                  <input maxlength="32" size="20" name="phone-2-1" type="text" id="phone-2-1" class="medium crm-form-text" />
+                      
+                            </div>
+        <div class="clear"></div>
+      </div>
+                
+          
+  
+                    <div class="crm-section editrow_street_address-5-section form-item" id="editrow-street_address-5">
+        <div class="label">
+          <label for="street_address-5">  Street Address
+     <span class="crm-marker" title="This field is required.">*</span>
+
+</label>
+        </div>
+        <div class="content">
+          
+                                    <input maxlength="96" size="45" name="street_address-5" type="text" id="street_address-5" class="huge crm-form-text required" />
+                      
+                            </div>
+        <div class="clear"></div>
+      </div>
+                
+          
+  
+                    <div class="crm-section editrow_supplemental_address_1-5-section form-item" id="editrow-supplemental_address_1-5">
+        <div class="label">
+          <label for="supplemental_address_1-5">Supplemental Address 1</label>
+        </div>
+        <div class="content">
+          
+                                    <input maxlength="96" size="45" name="supplemental_address_1-5" type="text" id="supplemental_address_1-5" class="huge crm-form-text" />
+                      
+                            </div>
+        <div class="clear"></div>
+      </div>
+                
+          
+  
+                    <div class="crm-section editrow_supplemental_address_2-5-section form-item" id="editrow-supplemental_address_2-5">
+        <div class="label">
+          <label for="supplemental_address_2-5">Supplemental Address 2</label>
+        </div>
+        <div class="content">
+          
+                                    <input maxlength="96" size="45" name="supplemental_address_2-5" type="text" id="supplemental_address_2-5" class="huge crm-form-text" />
+                      
+                            </div>
+        <div class="clear"></div>
+      </div>
+                
+          
+  
+                    <div class="crm-section editrow_city-5-section form-item" id="editrow-city-5">
+        <div class="label">
+          <label for="city-5">  Town/City
+     <span class="crm-marker" title="This field is required.">*</span>
+
+</label>
+        </div>
+        <div class="content">
+          
+                                    <input maxlength="64" size="30" name="city-5" type="text" id="city-5" class="big crm-form-text required" />
+                      
+                            </div>
+        <div class="clear"></div>
+      </div>
+                
+          
+  
+                    <div class="crm-section editrow_postal_code-5-section form-item" id="editrow-postal_code-5">
+        <div class="label">
+          <label for="postal_code-5">Postal/Zip Code</label>
+        </div>
+        <div class="content">
+          
+                                    <input maxlength="64" size="6" name="postal_code-5" type="text" id="postal_code-5" class="six crm-form-text" />
+                      
+                            </div>
+        <div class="clear"></div>
+      </div>
+                
+          
+  
+                    <div class="crm-section editrow_country-5-section form-item" id="editrow-country-5">
+        <div class="label">
+          <label for="country-5">  Country
+     <span class="crm-marker" title="This field is required.">*</span>
+
+</label>
+        </div>
+        <div class="content">
+          
+                                    <select class="crm-select2 crm-chain-select-control crm-form-select required" placeholder="- select Country -" name="country-5" data-target="state_province-5" id="country-5">
+	<option value="">- select Country -</option>
+	<option value="1226" selected="selected">United Kingdom</option>
+	<option value="1001">Afghanistan</option>
+	<option value="1241">Åland Islands</option>
+	<option value="1002">Albania</option>
+	<option value="1003">Algeria</option>
+	<option value="1004">American Samoa</option>
+	<option value="1005">Andorra</option>
+	<option value="1006">Angola</option>
+	<option value="1007">Anguilla</option>
+	<option value="1008">Antarctica</option>
+	<option value="1009">Antigua and Barbuda</option>
+	<option value="1010">Argentina</option>
+	<option value="1011">Armenia</option>
+	<option value="1012">Aruba</option>
+	<option value="1013">Australia</option>
+	<option value="1014">Austria</option>
+	<option value="1015">Azerbaijan</option>
+	<option value="1212">Bahamas</option>
+	<option value="1016">Bahrain</option>
+	<option value="1017">Bangladesh</option>
+	<option value="1018">Barbados</option>
+	<option value="1019">Belarus</option>
+	<option value="1020">Belgium</option>
+	<option value="1021">Belize</option>
+	<option value="1022">Benin</option>
+	<option value="1023">Bermuda</option>
+	<option value="1024">Bhutan</option>
+	<option value="1025">Bolivia</option>
+	<option value="1250">Bonaire, Saint Eustatius and Saba</option>
+	<option value="1026">Bosnia and Herzegovina</option>
+	<option value="1027">Botswana</option>
+	<option value="1028">Bouvet Island</option>
+	<option value="1029">Brazil</option>
+	<option value="1030">British Indian Ocean Territory</option>
+	<option value="1032">Brunei Darussalam</option>
+	<option value="1033">Bulgaria</option>
+	<option value="1034">Burkina Faso</option>
+	<option value="1036">Burundi</option>
+	<option value="1037">Cambodia</option>
+	<option value="1038">Cameroon</option>
+	<option value="1039">Canada</option>
+	<option value="1040">Cape Verde</option>
+	<option value="1041">Cayman Islands</option>
+	<option value="1042">Central African Republic</option>
+	<option value="1043">Chad</option>
+	<option value="1044">Chile</option>
+	<option value="1045">China</option>
+	<option value="1046">Christmas Island</option>
+	<option value="1047">Cocos (Keeling) Islands</option>
+	<option value="1048">Colombia</option>
+	<option value="1049">Comoros</option>
+	<option value="1051">Congo, Republic Of The</option>
+	<option value="1050">Congo, The Democratic Republic of the</option>
+	<option value="1052">Cook Islands</option>
+	<option value="1053">Costa Rica</option>
+	<option value="1054">Côte d’Ivoire</option>
+	<option value="1055">Croatia</option>
+	<option value="1056">Cuba</option>
+	<option value="1248">Curaçao</option>
+	<option value="1057">Cyprus</option>
+	<option value="1058">Czech Republic</option>
+	<option value="1059">Denmark</option>
+	<option value="1060">Djibouti</option>
+	<option value="1061">Dominica</option>
+	<option value="1062">Dominican Republic</option>
+	<option value="1064">Ecuador</option>
+	<option value="1065">Egypt</option>
+	<option value="1066">El Salvador</option>
+	<option value="1067">Equatorial Guinea</option>
+	<option value="1068">Eritrea</option>
+	<option value="1069">Estonia</option>
+	<option value="1203">Eswatini</option>
+	<option value="1070">Ethiopia</option>
+	<option value="1072">Falkland Islands (Malvinas)</option>
+	<option value="1073">Faroe Islands</option>
+	<option value="1074">Fiji</option>
+	<option value="1075">Finland</option>
+	<option value="1076">France</option>
+	<option value="1077">French Guiana</option>
+	<option value="1078">French Polynesia</option>
+	<option value="1079">French Southern Territories</option>
+	<option value="1080">Gabon</option>
+	<option value="1213">Gambia</option>
+	<option value="1081">Georgia</option>
+	<option value="1082">Germany</option>
+	<option value="1083">Ghana</option>
+	<option value="1084">Gibraltar</option>
+	<option value="1085">Greece</option>
+	<option value="1086">Greenland</option>
+	<option value="1087">Grenada</option>
+	<option value="1088">Guadeloupe</option>
+	<option value="1089">Guam</option>
+	<option value="1090">Guatemala</option>
+	<option value="1245">Guernsey</option>
+	<option value="1091">Guinea</option>
+	<option value="1092">Guinea-Bissau</option>
+	<option value="1093">Guyana</option>
+	<option value="1094">Haiti</option>
+	<option value="1095">Heard Island and McDonald Islands</option>
+	<option value="1096">Holy See (Vatican City State)</option>
+	<option value="1097">Honduras</option>
+	<option value="1098">Hong Kong</option>
+	<option value="1099">Hungary</option>
+	<option value="1100">Iceland</option>
+	<option value="1101">India</option>
+	<option value="1102">Indonesia</option>
+	<option value="1103">Iran, Islamic Republic of</option>
+	<option value="1104">Iraq</option>
+	<option value="1105">Ireland</option>
+	<option value="1246">Isle of Man</option>
+	<option value="1106">Israel</option>
+	<option value="1107">Italy</option>
+	<option value="1108">Jamaica</option>
+	<option value="1109">Japan</option>
+	<option value="1244">Jersey</option>
+	<option value="1110">Jordan</option>
+	<option value="1111">Kazakhstan</option>
+	<option value="1112">Kenya</option>
+	<option value="1113">Kiribati</option>
+	<option value="1114">Korea, Democratic People's Republic of</option>
+	<option value="1115">Korea, Republic of</option>
+	<option value="1251">Kosovo</option>
+	<option value="1116">Kuwait</option>
+	<option value="1117">Kyrgyzstan</option>
+	<option value="1118">Lao People's Democratic Republic</option>
+	<option value="1119">Latvia</option>
+	<option value="1120">Lebanon</option>
+	<option value="1121">Lesotho</option>
+	<option value="1122">Liberia</option>
+	<option value="1123">Libya</option>
+	<option value="1124">Liechtenstein</option>
+	<option value="1125">Lithuania</option>
+	<option value="1126">Luxembourg</option>
+	<option value="1127">Macao</option>
+	<option value="1129">Madagascar</option>
+	<option value="1130">Malawi</option>
+	<option value="1131">Malaysia</option>
+	<option value="1132">Maldives</option>
+	<option value="1133">Mali</option>
+	<option value="1134">Malta</option>
+	<option value="1135">Marshall Islands</option>
+	<option value="1136">Martinique</option>
+	<option value="1137">Mauritania</option>
+	<option value="1138">Mauritius</option>
+	<option value="1139">Mayotte</option>
+	<option value="1140">Mexico</option>
+	<option value="1141">Micronesia, Federated States of</option>
+	<option value="1142">Moldova</option>
+	<option value="1143">Monaco</option>
+	<option value="1144">Mongolia</option>
+	<option value="1243">Montenegro</option>
+	<option value="1145">Montserrat</option>
+	<option value="1146">Morocco</option>
+	<option value="1147">Mozambique</option>
+	<option value="1035">Myanmar</option>
+	<option value="1148">Namibia</option>
+	<option value="1149">Nauru</option>
+	<option value="1150">Nepal</option>
+	<option value="1152">Netherlands</option>
+	<option value="1153">New Caledonia</option>
+	<option value="1154">New Zealand</option>
+	<option value="1155">Nicaragua</option>
+	<option value="1156">Niger</option>
+	<option value="1157">Nigeria</option>
+	<option value="1158">Niue</option>
+	<option value="1159">Norfolk Island</option>
+	<option value="1128">North Macedonia</option>
+	<option value="1160">Northern Mariana Islands</option>
+	<option value="1161">Norway</option>
+	<option value="1162">Oman</option>
+	<option value="1163">Pakistan</option>
+	<option value="1164">Palau</option>
+	<option value="1165">Palestine, State of</option>
+	<option value="1166">Panama</option>
+	<option value="1167">Papua New Guinea</option>
+	<option value="1168">Paraguay</option>
+	<option value="1169">Peru</option>
+	<option value="1170">Philippines</option>
+	<option value="1171">Pitcairn</option>
+	<option value="1172">Poland</option>
+	<option value="1173">Portugal</option>
+	<option value="1174">Puerto Rico</option>
+	<option value="1175">Qatar</option>
+	<option value="1179">Reunion</option>
+	<option value="1176">Romania</option>
+	<option value="1177">Russian Federation</option>
+	<option value="1178">Rwanda</option>
+	<option value="1252">Saint Barthélemy</option>
+	<option value="1180">Saint Helena</option>
+	<option value="1181">Saint Kitts and Nevis</option>
+	<option value="1182">Saint Lucia</option>
+	<option value="1253">Saint Martin (French part)</option>
+	<option value="1183">Saint Pierre and Miquelon</option>
+	<option value="1184">Saint Vincent and the Grenadines</option>
+	<option value="1185">Samoa</option>
+	<option value="1186">San Marino</option>
+	<option value="1207">Sao Tome and Principe</option>
+	<option value="1187">Saudi Arabia</option>
+	<option value="1188">Senegal</option>
+	<option value="1242">Serbia</option>
+	<option value="1238">Serbia and Montenegro</option>
+	<option value="1189">Seychelles</option>
+	<option value="1190">Sierra Leone</option>
+	<option value="1191">Singapore</option>
+	<option value="1249">Sint Maarten (Dutch Part)</option>
+	<option value="1192">Slovakia</option>
+	<option value="1193">Slovenia</option>
+	<option value="1194">Solomon Islands</option>
+	<option value="1195">Somalia</option>
+	<option value="1196">South Africa</option>
+	<option value="1197">South Georgia and the South Sandwich Islands</option>
+	<option value="1247">South Sudan</option>
+	<option value="1198">Spain</option>
+	<option value="1199">Sri Lanka</option>
+	<option value="1200">Sudan</option>
+	<option value="1201">Suriname</option>
+	<option value="1202">Svalbard and Jan Mayen</option>
+	<option value="1204">Sweden</option>
+	<option value="1205">Switzerland</option>
+	<option value="1206">Syrian Arab Republic</option>
+	<option value="1208">Taiwan</option>
+	<option value="1209">Tajikistan</option>
+	<option value="1210">Tanzania, United Republic of</option>
+	<option value="1211">Thailand</option>
+	<option value="1063">Timor-Leste</option>
+	<option value="1214">Togo</option>
+	<option value="1215">Tokelau</option>
+	<option value="1216">Tonga</option>
+	<option value="1217">Trinidad and Tobago</option>
+	<option value="1218">Tunisia</option>
+	<option value="1219">Turkey</option>
+	<option value="1220">Turkmenistan</option>
+	<option value="1221">Turks and Caicos Islands</option>
+	<option value="1222">Tuvalu</option>
+	<option value="1223">Uganda</option>
+	<option value="1224">Ukraine</option>
+	<option value="1225">United Arab Emirates</option>
+	<option value="1228">United States</option>
+	<option value="1227">United States Minor Outlying Islands</option>
+	<option value="1229">Uruguay</option>
+	<option value="1230">Uzbekistan</option>
+	<option value="1231">Vanuatu</option>
+	<option value="1232">Venezuela</option>
+	<option value="1233">Viet Nam</option>
+	<option value="1031">Virgin Islands, British</option>
+	<option value="1234">Virgin Islands, U.S.</option>
+	<option value="1235">Wallis and Futuna</option>
+	<option value="1236">Western Sahara</option>
+	<option value="1237">Yemen</option>
+	<option value="1239">Zambia</option>
+	<option value="1240">Zimbabwe</option>
+</select>
+                      
+                            </div>
+        <div class="clear"></div>
+      </div>
+                
+          
+  
+                    <div class="crm-section editrow_state_province-5-section form-item" id="editrow-state_province-5">
+        <div class="label">
+          <label for="state_province-5">County/State</label>
+        </div>
+        <div class="content">
+          
+                                    <select data-callback="civicrm/ajax/jqState" data-empty-prompt="Choose country first" data-none-prompt="- N/A -" class="crm-select2 crm-chain-select-target crm-form-select" data-select-prompt="- select State/Province -" data-name="state_province-5" name="state_province-5" id="state_province-5">
+	<option value="">- select State/Province -</option>
+	<option value="2592">Aberdeen City</option>
+	<option value="2593">Aberdeenshire</option>
+	<option value="2594">Angus</option>
+	<option value="10365">Antrim and Newtownabbey</option>
+	<option value="10366">Ards and North Down</option>
+	<option value="2597">Argyll and Bute</option>
+	<option value="10367">Armagh City, Banbridge and Craigavon</option>
+	<option value="2606">Bedfordshire</option>
+	<option value="10368">Belfast</option>
+	<option value="9993">Berkshire</option>
+	<option value="10376">Blaenau Gwent</option>
+	<option value="10377">Bridgend</option>
+	<option value="2620">Bristol, City of</option>
+	<option value="2622">Buckinghamshire</option>
+	<option value="10378">Caerphilly</option>
+	<option value="2626">Cambridgeshire</option>
+	<option value="10379">Cardiff</option>
+	<option value="10380">Carmarthenshire</option>
+	<option value="10369">Causeway Coast and Glens</option>
+	<option value="10381">Ceredigion</option>
+	<option value="2634">Cheshire</option>
+	<option value="2635">Clackmannanshire</option>
+	<option value="10013">Clwyd</option>
+	<option value="2595">Co Antrim</option>
+	<option value="2598">Co Armagh</option>
+	<option value="2652">Co Down</option>
+	<option value="2670">Co Fermanagh</option>
+	<option value="2648">Co Londonderry</option>
+	<option value="9989">Co Tyrone</option>
+	<option value="10382">Conwy</option>
+	<option value="2639">Cornwall</option>
+	<option value="2657">County Durham</option>
+	<option value="2643">Cumbria</option>
+	<option value="10383">Denbighshire</option>
+	<option value="2647">Derbyshire</option>
+	<option value="10370">Derry City and Strabane</option>
+	<option value="2649">Devon</option>
+	<option value="2651">Dorset</option>
+	<option value="2654">Dumfries and Galloway</option>
+	<option value="2655">Dundee City</option>
+	<option value="10014">Dyfed</option>
+	<option value="2659">East Ayrshire</option>
+	<option value="2660">East Dunbartonshire</option>
+	<option value="2661">East Lothian</option>
+	<option value="2662">East Renfrewshire</option>
+	<option value="2663">East Riding of Yorkshire</option>
+	<option value="2664">East Sussex</option>
+	<option value="2665">Edinburgh, City of</option>
+	<option value="2668">Essex</option>
+	<option value="2669">Falkirk</option>
+	<option value="10371">Fermanagh and Omagh</option>
+	<option value="2671">Fife</option>
+	<option value="10384">Flintshire</option>
+	<option value="2674">Glasgow City</option>
+	<option value="2675">Gloucestershire</option>
+	<option value="9988">Greater Manchester</option>
+	<option value="2612">Gwent</option>
+	<option value="2678">Gwynedd</option>
+	<option value="2682">Hampshire</option>
+	<option value="2687">Herefordshire</option>
+	<option value="2688">Hertfordshire</option>
+	<option value="2689">Highland</option>
+	<option value="2692">Inverclyde</option>
+	<option value="10385">Isle of Anglesey</option>
+	<option value="2694">Isle of Wight</option>
+	<option value="2699">Kent</option>
+	<option value="2705">Lancashire</option>
+	<option value="2709">Leicestershire</option>
+	<option value="2712">Lincolnshire</option>
+	<option value="10372">Lisburn and Castlereagh</option>
+	<option value="9999">London</option>
+	<option value="9992">Merseyside</option>
+	<option value="10386">Merthyr Tydfil</option>
+	<option value="10373">Mid and East Antrim</option>
+	<option value="2804">Mid Glamorgan</option>
+	<option value="10374">Mid Ulster</option>
+	<option value="2723">Midlothian</option>
+	<option value="10364">Monmouthshire</option>
+	<option value="2726">Moray</option>
+	<option value="2666">Na h-Eileanan Siar</option>
+	<option value="10387">Neath Port Talbot</option>
+	<option value="10388">Newport</option>
+	<option value="10375">Newry, Mourne and Down</option>
+	<option value="2734">Norfolk</option>
+	<option value="2735">North Ayrshire</option>
+	<option value="2738">North Lanarkshire</option>
+	<option value="2742">North Yorkshire</option>
+	<option value="2743">Northamptonshire</option>
+	<option value="2744">Northumberland</option>
+	<option value="2746">Nottinghamshire</option>
+	<option value="2747">Oldham</option>
+	<option value="2748">Omagh</option>
+	<option value="2749">Orkney Islands</option>
+	<option value="2750">Oxfordshire</option>
+	<option value="10389">Pembrokeshire</option>
+	<option value="2752">Perth and Kinross</option>
+	<option value="2757">Powys</option>
+	<option value="2761">Renfrewshire</option>
+	<option value="10390">Rhondda, Cynon, Taff</option>
+	<option value="2766">Rutland</option>
+	<option value="2770">Scottish Borders</option>
+	<option value="2773">Shetland Islands</option>
+	<option value="2774">Shropshire</option>
+	<option value="2777">Somerset</option>
+	<option value="2778">South Ayrshire</option>
+	<option value="10015">South Glamorgan</option>
+	<option value="2779">South Gloucestershire</option>
+	<option value="2780">South Lanarkshire</option>
+	<option value="9991">South Yorkshire</option>
+	<option value="2785">Staffordshire</option>
+	<option value="2786">Stirling</option>
+	<option value="2791">Suffolk</option>
+	<option value="2793">Surrey</option>
+	<option value="10391">Swansea</option>
+	<option value="10392">Torfaen</option>
+	<option value="9986">Tyne and Wear</option>
+	<option value="10393">Vale of Glamorgan, The</option>
+	<option value="2811">Warwickshire</option>
+	<option value="2813">West Dunbartonshire</option>
+	<option value="9998">West Glamorgan</option>
+	<option value="2814">West Lothian</option>
+	<option value="9994">West Midlands</option>
+	<option value="2815">West Sussex</option>
+	<option value="9990">West Yorkshire</option>
+	<option value="2818">Wiltshire</option>
+	<option value="2823">Worcestershire</option>
+	<option value="10394">Wrexham</option>
+</select>
+                      
+                            </div>
+        <div class="clear"></div>
+      </div>
+                
+          
+  
+                    <div class="crm-section editrow_custom_38-section form-item" id="editrow-custom_38">
+        <div class="label">
+          <label>  Branch of Nutrition
+     <span class="crm-marker" title="This field is required.">*</span>
+
+</label>
+        </div>
+        <div class="content">
+          
+                                    <input data-crm-custom="Employment:Branch_of_Nutrition" class=" required crm-form-radio" value="1" type="radio" id="CIVICRM_QFID_1_custom_38" name="custom_38" /><label for="CIVICRM_QFID_1_custom_38">Human</label>&nbsp;<input data-crm-custom="Employment:Branch_of_Nutrition" class=" required crm-form-radio" value="2" type="radio" id="CIVICRM_QFID_2_custom_38" name="custom_38" /><label for="CIVICRM_QFID_2_custom_38">Animal</label>
+                      
+                            </div>
+        <div class="clear"></div>
+      </div>
+                
+          
+  
+                    <div class="crm-section editrow_custom_57-section form-item" id="editrow-custom_57">
+        <div class="label">
+          <label for="custom_57">  Area Of Interest
+     <span class="crm-marker" title="This field is required.">*</span>
+
+</label>
+        </div>
+        <div class="content">
+          
+                                    <select data-crm-custom="Employment:Area_of_employment" class="crm-select2 crm-form-select required" name="custom_57" id="custom_57">
+	<option value="">- select Area Of Interest -</option>
+	<option value="1">Academia</option>
+	<option value="2">Clinical/Medical</option>
+	<option value="3">Industry</option>
+	<option value="4">Sports/Fitness</option>
+	<option value="5">Government/Policy</option>
+</select>
+                      
+                            </div>
+        <div class="clear"></div>
+      </div>
+                  <div class="crm-section helprow-custom_57-section helprow-post" id="helprow-custom_57">
+        <div class="content description"><strong>This should be your current or previous area of employment.<br>also please make one Area of Interest choice below.<br></strong></div>
+      </div>
+        
+          
+  
+                    <div class="crm-section editrow_custom_45-section form-item" id="editrow-custom_45">
+        <div class="label">
+          <label for="custom_45">Area of Interest - Academia</label>
+        </div>
+        <div class="content">
+          
+                                    <select data-crm-custom="Employment:Academia" class="crm-select2 crm-form-select" name="custom_45" id="custom_45">
+	<option value="">- select Area of Interest - Academia -</option>
+	<option value="1">Lecturer/Professor</option>
+	<option value="2">Teacher</option>
+	<option value="3">Researcher</option>
+	<option value="4">Statistician/Methodologist</option>
+	<option value="5">Comms/PR/Marketing</option>
+</select>
+                      
+                            </div>
+        <div class="clear"></div>
+      </div>
+                
+          
+  
+                    <div class="crm-section editrow_custom_46-section form-item" id="editrow-custom_46">
+        <div class="label">
+          <label for="custom_46">Area of Interest - Clinical/Medical</label>
+        </div>
+        <div class="content">
+          
+                                    <select data-crm-custom="Employment:Clinical_Medical" class="crm-select2 crm-form-select" name="custom_46" id="custom_46">
+	<option value="">- select Area of Interest - Clinical/Medical -</option>
+	<option value="1">G.P.</option>
+	<option value="2">Nurse</option>
+	<option value="3">Clinician (hospital/private practice)</option>
+	<option value="4">Other healthcare provider</option>
+	<option value="5">Dietitian</option>
+	<option value="6">Nutritionist</option>
+	<option value="7">Vet</option>
+</select>
+                      
+                            </div>
+        <div class="clear"></div>
+      </div>
+                
+          
+  
+                    <div class="crm-section editrow_custom_51-section form-item" id="editrow-custom_51">
+        <div class="label">
+          <label for="custom_51">Area of Interest - Government/Policy</label>
+        </div>
+        <div class="content">
+          
+                                    <select data-crm-custom="Employment:Government_Policy" class="crm-select2 crm-form-select" name="custom_51" id="custom_51">
+	<option value="">- select Area of Interest - Government/Policy -</option>
+	<option value="1">Animal Health</option>
+	<option value="2">Public Health/Heatlh promotion</option>
+	<option value="3">Food safety</option>
+	<option value="4">Sustainability</option>
+	<option value="5">NGO/Charity/Society</option>
+	<option value="6">Statistician/data analyst</option>
+	<option value="7">Regulatory Affairs</option>
+	<option value="8">Nutritionist</option>
+	<option value="9">Food production</option>
+</select>
+                      
+                            </div>
+        <div class="clear"></div>
+      </div>
+                
+          
+  
+                    <div class="crm-section editrow_custom_47-section form-item" id="editrow-custom_47">
+        <div class="label">
+          <label for="custom_47">Area of Interest - Industry</label>
+        </div>
+        <div class="content">
+          
+                                    <select data-crm-custom="Employment:Industry" class="crm-select2 crm-form-select" name="custom_47" id="custom_47">
+	<option value="">- select Area of Interest - Industry -</option>
+	<option value="1">Nutritionist</option>
+	<option value="2">Product Development</option>
+	<option value="3">Sales/Marketing/PR</option>
+	<option value="4">Researcher</option>
+	<option value="5">Regulatory affairs</option>
+	<option value="6">Food Production</option>
+</select>
+                      
+                            </div>
+        <div class="clear"></div>
+      </div>
+                
+          
+  
+                    <div class="crm-section editrow_custom_48-section form-item" id="editrow-custom_48">
+        <div class="label">
+          <label for="custom_48">Area of Interest - Sports/Fitness</label>
+        </div>
+        <div class="content">
+          
+                                    <select data-crm-custom="Employment:Sports_Fitness" class="crm-select2 crm-form-select" name="custom_48" id="custom_48">
+	<option value="">- select Area of Interest - Sports/Fitness -</option>
+	<option value="1">Nutritionist</option>
+	<option value="2">Personal Trainer</option>
+</select>
+                      
+                            </div>
+        <div class="clear"></div>
+      </div>
+                
+          
+  
+                    <div class="crm-section editrow_custom_53-section form-item" id="editrow-custom_53">
+        <div class="label">
+          <label for="custom_53">Nutrition Society Themes</label>
+        </div>
+        <div class="content">
+          
+                                    <select data-crm-custom="Employment:Nutrition_Society_Themes" class="huge crm-select2 crm-form-multiselect" multiple="multiple" placeholder="- select Nutrition Society Themes -" name="custom_53[]" id="custom_53">
+	<option value="1">Cellular & molecular nutrition</option>
+	<option value="2">Whole body metabolism</option>
+	<option value="3">Public Health Nutrition</option>
+</select>
+                      
+                            </div>
+        <div class="clear"></div>
+      </div>
+                
+          
+  
+                    <div class="crm-section editrow_custom_150-section form-item" id="editrow-custom_150">
+        <div class="label">
+          <label>  Would you prefer to receive the bi-annual membership magazine,  the Gazette, electronically rather than in print?
+     <span class="crm-marker" title="This field is required.">*</span>
+
+</label>
+        </div>
+        <div class="content">
+          
+                                    <input data-crm-custom="Marketing_:Receive_the_gazette_electronically_" class=" required crm-form-radio" value="1" type="radio" id="CIVICRM_QFID_1_custom_150" name="custom_150" /><label for="CIVICRM_QFID_1_custom_150">Yes</label>&nbsp;<input data-crm-custom="Marketing_:Receive_the_gazette_electronically_" class=" required crm-form-radio" value="0" type="radio" id="CIVICRM_QFID_0_custom_150" name="custom_150" /><label for="CIVICRM_QFID_0_custom_150">No</label>
+                      
+                            </div>
+        <div class="clear"></div>
+      </div>
+                
+          
+  
+                    <div class="crm-section editrow_custom_68-section form-item" id="editrow-custom_68">
+        <div class="label">
+          <label for="custom_68">  How Did You Hear About Us?
+     <span class="crm-marker" title="This field is required.">*</span>
+
+</label>
+        </div>
+        <div class="content">
+          
+                                    <select data-crm-custom="Marketing_:How_did_you_hear_about_us_" class="crm-select2 crm-form-select required" name="custom_68" id="custom_68">
+	<option value="">- select How Did You Hear About Us? -</option>
+	<option value="1">University</option>
+	<option value="2">Social Media</option>
+	<option value="3">Email</option>
+	<option value="4">Search engine</option>
+	<option value="5">Word of mouth</option>
+	<option value="6">Event</option>
+	<option value="7">Other website</option>
+	<option value="8">Other</option>
+</select>
+                      
+                            </div>
+        <div class="clear"></div>
+      </div>
+                
+          
+  
+                    <div class="crm-section editrow_custom_190-section form-item" id="editrow-custom_190">
+        <div class="label">
+          <label for="custom_190">  Your Age Range
+     <span class="crm-marker" title="This field is required.">*</span>
+
+</label>
+        </div>
+        <div class="content">
+          
+                                    <select data-crm-custom="Employment:Age_Range" class="crm-select2 crm-form-select required" name="custom_190" id="custom_190">
+	<option value="">- select Your Age Range -</option>
+	<option value="1">18-26</option>
+	<option value="2">27-35</option>
+	<option value="3">36-49</option>
+	<option value="4">50-64</option>
+	<option value="5">65+</option>
+</select>
+                      
+                            </div>
+        <div class="clear"></div>
+      </div>
+                
+          
+  
+                <div class="crm-section helprow-custom_142-section helprow-pre" id="helprow-custom_142">
+        <div class="content description">I agree and I understand that the Board of Trustees has the right to reject or suspend my membership.<br><a target="_blank" href="/governance">Click here to read the Articles of Association and Rules of the Nutrition Society</a></div>
+      </div>
+              <div class="crm-section editrow_custom_142-section form-item" id="editrow-custom_142">
+        <div class="label">
+          <label>  Tick to accept the Articles of Association and Rules of the Nutrition Society
+     <span class="crm-marker" title="This field is required.">*</span>
+
+</label>
+        </div>
+        <div class="content">
+          
+                                    <input type="hidden" name="custom_142[1]" value="" /><input id="custom_142_1" name="custom_142[1]" type="checkbox" value="1" class="crm-form-checkbox" /><label for="custom_142_1">I agree</label>
+                      
+                            </div>
+        <div class="clear"></div>
+      </div>
+              </fieldset>
+
+ 
+
+<script type="text/javascript">
+  CRM.$(function($) {
+    $('#selector tr:even').addClass('odd-row');
+    $('#selector tr:odd ').addClass('even-row');
+  });
+</script>
+
+      </div>
+
+      
+          
+                <fieldset class="crm-public-form-item crm-group payment_options-group" style="display:none;">
+        <legend>Payment Options</legend>
+        <div class="crm-public-form-item crm-section payment_processor-section">
+          <div class="label"><label>Payment Method</label></div>
+          <div class="content"><input class="payment_processor_omnipay_sagepay_server crm-form-radio" value="15" type="radio" id="CIVICRM_QFID_15_payment_processor_id" name="payment_processor_id" /><label for="CIVICRM_QFID_15_payment_processor_id">Credit/Debit Card (SagePay)</label>&nbsp;<input class="payment_processor_smart_debit crm-form-radio" value="17" type="radio" id="CIVICRM_QFID_17_payment_processor_id" name="payment_processor_id" /><label for="CIVICRM_QFID_17_payment_processor_id">Direct Debit</label>&nbsp;<input class="payment_processor_paypal_standard crm-form-radio" value="19" type="radio" id="CIVICRM_QFID_19_payment_processor_id" name="payment_processor_id" /><label for="CIVICRM_QFID_19_payment_processor_id">Paypal</label>&nbsp;<input class="payment_processor_paylater crm-form-radio" value="0" type="radio" id="CIVICRM_QFID_0_payment_processor_id" name="payment_processor_id" /><label for="CIVICRM_QFID_0_payment_processor_id">Cheque or BACS</label></div>
+          <div class="clear"></div>
+        </div>
+      </fieldset>
+    
+    
+    <div id="billing-payment-block">
+  
+  <script type="text/javascript">
+    CRM.$(function($) {
+      // Unbind first so we don't add another handler every time we switch payment processors
+      $('input[name="payment_processor_id"]').on('change', function() { $('input#auto_renew').unbind(showHidePaymentProcessorCapabilities()); });
+
+      // Trigger check for capabilities every time we change the payment processor
+      $('input#auto_renew').on('change', showHidePaymentProcessorCapabilities);
+      showHidePaymentProcessorCapabilities();
+
+      // Display a warning to the user if the selected payment processor does not support recurring payments
+      function showHidePaymentProcessorCapabilities() {
+        var isAutoRenew = $('input[name="auto_renew"]').prop('checked');
+        var isRecurSupported = false
+        var isPaymentProcessorSelected = $('input[name="payment_processor_id"]:checked').length;
+        $('div#payment_processor_capabilities_warning').remove();
+        if (isAutoRenew && !isRecurSupported && isPaymentProcessorSelected) {
+          $('div#billing-payment-block:first').prepend(
+            '<div id="payment_processor_capabilities_warning" class="messages status crm-warning">This payment method does not support automatic renewals</div>');
+        }
+      }
+    });
+  </script>
+
+<div id="payment_information">
+    </div>
+  </div>
+
+<script type="text/javascript">
+  /**
+   * Show or hide payment options.
+   *
+   * @param bool $isHide
+   *   Should the block be hidden.
+   */
+  function showHidePayment(isHide) {
+    var payment_options = cj(".payment_options-group");
+    var payment_processor = cj("div.payment_processor-section");
+    var payment_information = cj("div#payment_information");
+    // I've added a hide for billing block. But, actually the issue
+    // might be that the unselecting of the processor should cause it
+    // to be hidden (or removed) in which case it can go from this function.
+    var billing_block = cj("div#billing-payment-block");
+    if (isHide) {
+      payment_options.hide();
+      payment_processor.hide();
+      payment_information.hide();
+      billing_block.hide();
+      // Ensure that jquery validation doesn't block submission when we don't need to fill in the billing details section
+      cj('#billing-payment-block select.crm-select2').addClass('crm-no-validate');
+      // also unset selected payment methods
+      cj('input[name="payment_processor_id"]').removeProp('checked');
+    }
+    else {
+      payment_options.show();
+      payment_processor.show();
+      payment_information.show();
+      billing_block.show();
+      cj('#billing-payment-block select.crm-select2').removeClass('crm-no-validate');
+      // also set selected payment methods
+      cj('input[name="payment_processor_id"][checked=checked]').prop('checked', true);
+    }
+  }
+
+  /**
+   * Hides or shows billing and payment options block depending on whether payment is required.
+   *
+   * In general incomplete orders or $0 orders do not require a payment block.
+   */
+  function skipPaymentMethod() {
+    var isHide = false;
+    var isMultiple = null;
+    var alwaysShowFlag = (isMultiple && cj("#additional_participants").val());
+    var alwaysHideFlag = (cj("#bypass_payment").val() == 1);
+    var total_amount_tmp =  cj('#pricevalue').data('raw-total');
+    // Hide billing questions if this is free
+    if (!alwaysShowFlag && total_amount_tmp == 0){
+      isHide = true;
+    }
+    else {
+      isHide = false;
+    }
+    if (alwaysHideFlag) {
+      isHide = true;
+    }
+    showHidePayment(isHide);
+  }
+  skipPaymentMethod();
+
+  CRM.$(function($) {
+    function buildPaymentBlock(type) {
+      var $form = $('#billing-payment-block').closest('form');
+      
+                                                                                
+      
+      var payment_instrument_id = $('#payment_instrument_id').val();
+
+      var dataUrl = "/civicrm/payment/form?formName=Main&currency=GBP&&is_back_office=&id=10&pre_profile_id=46&processor_id=" + type;
+      
+      if (typeof(CRM.vars) != "undefined") {
+        if (typeof(CRM.vars.coreForm) != "undefined") {
+          if (typeof(CRM.vars.coreForm.contact_id) != "undefined") {
+            dataUrl = dataUrl + "&cid=" + CRM.vars.coreForm.contact_id;
+          }
+
+          if (typeof(CRM.vars.coreForm.checksum) != "undefined" ) {
+            dataUrl = dataUrl + "&cs=" + CRM.vars.coreForm.checksum;
+          }
+        }
+      }
+      dataUrl =  dataUrl + "&payment_instrument_id=" + payment_instrument_id;
+
+      // Processors like pp-express will hide the form submit buttons, so re-show them when switching
+      $('.crm-submit-buttons', $form).show().find('input').prop('disabled', true);
+      CRM.loadPage(dataUrl, {target: '#billing-payment-block'});
+    }
+
+    $('[name=payment_processor_id]').on('change.paymentBlock', function() {
+        buildPaymentBlock($(this).val());
+    });
+
+    $('#payment_instrument_id').on('change.paymentBlock', function() {
+      buildPaymentBlock(0);
+    });
+
+    $('#billing-payment-block').on('crmLoad', function() {
+      $('.crm-submit-buttons input').prop('disabled', false);
+    })
+  });
+
+</script>
+
+
+    <div class="crm-public-form-item crm-group custom_post_profile-group">
+       
+
+<script type="text/javascript">
+  CRM.$(function($) {
+    $('#selector tr:even').addClass('odd-row');
+    $('#selector tr:odd ').addClass('even-row');
+  });
+</script>
+
+    </div>
+
+    
+          
+<script type="text/javascript">
+var RecaptchaOptions = {};
+</script>
+
+<div class="crm-section recaptcha-section">
+    <table class="form-layout-compressed">
+        <tr>
+          <td class="recaptcha_label">&nbsp;</td>
+          <td><div class="g-recaptcha" data-sitekey="6LevlokUAAAAAMqSuBe2jtfkS3H1ZulP7dSr_aQS"></div>
+                <script type="text/javascript" src="https://www.google.com/recaptcha/api.js"></script>
+
+	<noscript>
+		<iframe src="https://www.google.com/recaptcha/api.js" height="300" width="500" frameborder="0"></iframe><br/>
+		<div class="g-recaptcha" data-sitekey="6LevlokUAAAAAMqSuBe2jtfkS3H1ZulP7dSr_aQS"></div>
+	</noscript></td>
+       </tr>
+    </table>
+</div>
+        <div id="crm-submit-buttons" class="crm-submit-buttons">
+      
+                              <button class="crm-form-submit default validate crm-button crm-button-type-upload crm-button_qf_Main_upload" value="1" type="submit" name="_qf_Main_upload" id="_qf_Main_upload-bottom"><i aria-hidden="true" class="crm-i fa-chevron-right"></i> Review your contribution</button>
+          </div>
+      </div>
+  <script type="text/javascript">
+    
+    
+
+    cj('input[name="soft_credit_type_id"]').on('change', function() {
+      enableHonorType();
+    });
+
+    function enableHonorType() {
+      var selectedValue = cj('input[name="soft_credit_type_id"]:checked');
+      if ( selectedValue.val() > 0) {
+        cj('#honorType').show();
+      }
+      else {
+        cj('#honorType').hide();
+      }
+    }
+
+    cj('input[id="is_recur"]').on('change', function() {
+      toggleRecur();
+    });
+
+    function toggleRecur() {
+      var isRecur = cj('input[id="is_recur"]:checked');
+      var allowAutoRenew = '1';
+      var quickConfig = 1;
+      if (allowAutoRenew && cj("#auto_renew") && quickConfig) {
+        showHideAutoRenew(null);
+      }
+
+      var frequencyUnit = cj('#frequency_unit');
+      var frequencyInerval = cj('#frequency_interval');
+      var installments = cj('#installments');
+      isDisabled = false;
+
+      if (isRecur.val() > 0) {
+        cj('#recurHelp').show();
+        frequencyUnit.prop('disabled', false).addClass('required');
+        frequencyInerval.prop('disabled', false).addClass('required');
+        installments.prop('disabled', false);
+        cj('#amount_sum_label').text('Regular amount');
+      }
+      else {
+        cj('#recurHelp').hide();
+        frequencyUnit.prop('disabled', true).removeClass('required');
+        frequencyInerval.prop('disabled', true).removeClass('required');
+        installments.prop('disabled', true);
+        cj('#amount_sum_label').text('Total Amount');
+      }
+    }
+
+    function pcpAnonymous() {
+      // clear nickname field if anonymous is true
+      if (document.getElementsByName("pcp_is_anonymous")[1].checked) {
+        document.getElementById('pcp_roll_nickname').value = '';
+      }
+      if (!document.getElementsByName("pcp_display_in_roll")[0].checked) {
+        cj('#nickID').hide();
+        cj('#nameID').hide();
+        cj('#personalNoteID').hide();
+      }
+      else {
+        if (document.getElementsByName("pcp_is_anonymous")[0].checked) {
+          cj('#nameID').show();
+          cj('#nickID').show();
+          cj('#personalNoteID').show();
+        }
+        else {
+          cj('#nameID').show();
+          cj('#nickID').hide();
+          cj('#personalNoteID').hide();
+        }
+      }
+    }
+
+    CRM.$(function($) {
+      enableHonorType();
+      toggleRecur();
+      skipPaymentMethod();
+    });
+
+    CRM.$(function($) {
+      // highlight price sets
+      function updatePriceSetHighlight() {
+        $('#priceset .price-set-row span').removeClass('highlight');
+        $('#priceset .price-set-row input:checked').parent().addClass('highlight');
+      }
+      $('#priceset input[type="radio"]').change(updatePriceSetHighlight);
+      updatePriceSetHighlight();
+
+      // Update pledge contribution amount when pledge checkboxes change
+      $("input[name^='pledge_amount']").on('change', function() {
+        var total = 0;
+        $("input[name^='pledge_amount']:checked").each(function() {
+          total += Number($(this).attr('amount'));
+        });
+        $("input[name^='price_']").val(total.toFixed(2));
+      });
+    });
+    
+  </script>
+    
+  <script type="text/javascript">
+    CRM.$(function($) {
+      $("form.CRM_Contribute_Form_Contribution_Main").crmValidate();
+    });
+  </script>
+  
+  
+  </form>
+      </div>
+
+  
+</div>           </div>
+          </div>
+
+  <div class="l-highlighted">
+    <div class="l-highlighted__inner">
+        <div class="l-region l-region--highlighted">
+    <div id="block-block-1" class="block block--block block-membership block--block-1">
+        <h2 class="block__title">Membership</h2>
+      <div class="block__content">
+    <p>Membership of our global nutritional science community offers a host of benefits, from access to the latest evidence based research to event discounts and travel grants.</p>
+
+<p><a class="button button--secondary button--text-secondary-blue" href="/membership">Membership</a></p>  </div>
+</div>
+<div id="block-block-2" class="block block--block block-history block--block-2">
+        <h2 class="block__title">History</h2>
+      <div class="block__content">
+    <p>Find out more about our history, from how the Nutrition Society was first established, to how we’ve become the largest learned Society in Europe today.</p>
+
+<p><a class="button button--secondary button--text-secondary-blue" href="/history">History</a></p>  </div>
+</div>
+  </div>
+    </div>
+  </div>
+
+  <footer class="l-footer" role="contentinfo">
+    <div class="l-footer__inner">
+        <div class="l-region l-region--footer">
+    <nav id="block-menu-menu-footer-menu" role="navigation" class="block block--menu block-menu--footer block--menu-menu-footer-menu">
+      
+  <ul class="menu"><li class="first leaf"><a href="https://www.nutritionsociety.org/privacy-policy" title="">Privacy Policy</a></li>
+<li class="leaf"><a href="https://www.nutritionsociety.org/sponsorship-policy" title="">Sponsorship Policy</a></li>
+<li class="leaf"><a href="https://www.nutritionsociety.org/cookie-policy" title="">Cookie Policy</a></li>
+<li class="leaf"><a href="https://www.nutritionsociety.org/terms-use#overlay-context=terms-use" title="">Terms of Use</a></li>
+<li class="last leaf"><a href="/complaints" title="">Complaints</a></li>
+</ul></nav>
+<div id="block-block-3" class="block block--block block-address block--block-3">
+        <div class="block__content">
+    <p><strong>The Nutrition Society</strong></p>
+
+<p>10 Cambridge Court</p>
+
+<p>210 Shepherds Bush Road</p>
+
+<p>London</p>
+
+<p>W6 7NJ</p>
+
+<p>UK</p>  </div>
+</div>
+<div id="block-block-4" class="block block--block block-contact block--block-4">
+        <div class="block__content">
+    <div class="block-contact__sm">
+<a class="sm-icon sm-icon--twitter" href="https://twitter.com/NutritionSoc"></a><a class="sm-icon sm-icon--facebook" href="https://www.facebook.com/thenutritionsociety"></a><a class="sm-icon sm-icon--linkedin" href="https://www.linkedin.com/company/nutrition-society"></a><a class="sm-icon sm-icon--youtube" href="https://www.youtube.com/channel/UCrYD0LcdX1S98bOxZLnxJxA"></a><a class="sm-icon sm-icon--instagram" href="https://www.instagram.com/the_nutrition_society/"></a>
+</div>
+<p><a href="/contact">Contact the Nutrition Society</a></p>
+  </div>
+</div>
+  </div>
+    </div>
+  </footer>
+</div>
+  <script src="https://www.nutritionsociety.org/sites/default/civicrm_custom/extensions/org.civicrm.module.cividiscount-3.2/org.civicrm.module.cividiscount-3.7/js/main.js?qoofk6"></script>
+<script>cj(function($){
+  var fields=["#first_name","#last_name","#legal_name"];
+  var fieldsAccronym=["#current_employer","#organisation_name","#nick_name"];
+  function normalise (dom) {
+     var v=$(dom).val();
+     if (v == v.toLowerCase()) {
+       $(dom).val(v[0].toUpperCase() + v.slice(1));
+       
+     }
+     if (v == v.toUpperCase()) {
+       $(dom).val(v[0] + v.slice(1).toLowerCase());
+       
+     }
+     
+      var v=$(dom).val();
+      idx = v.toLowerCase().indexOf(" and ") ;
+
+     if( idx > -1){       
+        tmp = v.substring(0, idx );
+        $(dom).val(tmp); 
+      }
+     
+     
+         var v=$(dom).val();
+      idx = v.toLowerCase().indexOf(" & ") ;
+
+     if( idx > -1){       
+        tmp = v.substring(0, idx );
+        $(dom).val(tmp); 
+      }
+     
+     
+      var v=$(dom).val();
+      idx = v.toLowerCase().indexOf(" family") ;
+
+     if( idx > -1){       
+        tmp = v.substring(0, idx );
+        $(dom).val(tmp); 
+      }
+      
+       var v=$(dom).val();
+      idx = v.toLowerCase().indexOf(" household") ;
+
+     if( idx > -1){       
+        tmp = v.substring(0, idx );
+        $(dom).val(tmp); 
+      }
+     
+     
+     
+  }
+
+  $.each(fields,function(i,field){
+    $(field).blur(function(){
+      normalise(this);
+     }).keyup(function(event) {
+       var v=$(this).val();
+       if (v.length == 1 && v == v.toLowerCase())
+         $(this).val(v.toUpperCase());
+    });
+  });
+});
+</script>
+<script>window.eu_cookie_compliance_cookie_name = "";</script>
+<script defer="defer" src="https://www.nutritionsociety.org/sites/all/modules/eu_cookie_compliance/js/eu_cookie_compliance.js?qoofk6"></script>
+</body>
+</html>

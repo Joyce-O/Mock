@@ -1,0 +1,18 @@
+
+(function ($) {
+    Drupal.behaviors.nutrition_custom = {
+        attach:function (context, settings) {
+            var page = window.location.pathname.split('/')[4];
+            if(page === undefined) {
+                $( ".view-display-id-block_5 a" ).first().addClass( "active" );
+            } else {
+                $('#block-views-event-page-block-5 a[href*="' + page+ '"]').addClass('active');
+            }
+            if(page === undefined) {
+                $( ".view-display-id-block_4 a" ).first().addClass( "active" );
+            } else {
+                $('#block-views-event-page-block-4 a[href*="' + page+ '"]').addClass('active');
+            }
+        }
+    }
+})(jQuery);

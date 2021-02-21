@@ -1,0 +1,28 @@
+(function ($) {
+
+  $(document).ready(function() {
+
+  	// Add active trail class to first in list of <a> tags
+  	// This is being applied in the sidebar menus on new inner pages
+    $('#block-views-exhibitions-sidebar-menu-block .view-content div a.active').siblings().first().addClass('active-trail');
+
+    // Add target="_blank" for tinyurl links on Homepage twitter feed
+    $('.view-id-tweets.view-display-id-block_1 a').attr('target','_blank');
+
+    // Replace string "Conference details" with "Booking information" on .view-header + .event-type-54 and .view-header + .event-type-60
+    // And on body.booking-info-tab
+    if ($('.view-event-page .view-header div').hasClass('event-type-54') || $('.view-event-page .view-header div').hasClass('event-type-60') || $('body').hasClass('booking-info-tab')) {
+    	$('ul.tabs--primary a').html(function( ){
+    		return $(this).html().replace("Conference Details", "Booking Information");
+    	});
+    	$('.views-field-field-registration a').html(function( ) {
+    		return $(this).html().replace("Conference Details", "Booking Information");
+    	});
+      $('.page-node-conference-details .l-content h1.page__title').html(function( ) {
+        return $(this).html().replace("Conference Details", "Booking Information");
+      });
+    }
+
+  });
+
+})(jQuery);

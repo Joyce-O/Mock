@@ -1,0 +1,18 @@
+function fixVerticalArrows(){
+		var h = (jQuery('.slick-active').find("img").height()/2);
+    jQuery('.slick__arrow').css('top',h+'px');
+}
+
+(function($){
+	Drupal.behaviors.fixSlickSliderArrows = {
+		attach: function(context, settings) {
+	  	$('.slick__slider')
+			.on('afterChange',function(event){
+		    fixVerticalArrows();
+		  }).trigger('afterChange');
+		  $(window).on('load resize', function(){
+		  	fixVerticalArrows();
+		  })
+		}
+	};
+})(jQuery);

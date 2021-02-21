@@ -1,0 +1,28 @@
+(function($) {
+
+	$(document).ready(function() {
+
+		$('.page-member-area-events .view-id-member_area_events.view-display-id-block_1 .views-row-1.Workshop').prev('h3').text('Upcoming Workshops');
+		$('.page-member-area-events .view-id-member_area_events.view-display-id-block_1 .views-row-1.Webinar').prev('h3').text('Upcoming Webinars');
+		$('.page-member-area-events .view-id-member_area_events.view-display-id-block_2 .views-row-1.Workshop').prev('h3').text('Workshops');
+		$('.page-member-area-events .view-id-member_area_events.view-display-id-block_2 .views-row-1.Webinar').prev('h3').text('Webinars');
+		$('.page-member-area-events .view-id-member_area_events.view-display-id-block .views-row-1.Workshop').prev('h3').text('Recent Workshops');
+		$('.page-member-area-events .view-id-member_area_events.view-display-id-block .views-row-1.Webinar').prev('h3').text('Recent Webinars');
+
+		if ($('.page-member-area-profile').length > 0) {
+			var buttons = $('.glance--wrapper a.button--primary');
+			$('.glance--wrapper').after(buttons);
+		}
+
+      	// Add page titles for user/me pages
+      	$('.page-user-me-change-password .l-content form').before('<h1>Change Password</h1>');
+      	$('.page-user-me-edit .l-content form').prepend('<h1>Edit Account</h1>');
+
+      	// Change link for 'my membership' link in header
+      	$('body.logged-in #block-system-user-menu li.last a').attr('href', '/member-area');
+
+      	$('.page-member-area .Link-to-Member-Connect .field-path a').attr('target', '_blank');
+
+	});
+
+})(jQuery);

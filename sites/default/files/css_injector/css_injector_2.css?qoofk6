@@ -1,0 +1,63 @@
+h2 a {
+    text-decoration: none;
+}
+.front .more-link {
+    clear: both;
+    text-align: right;
+    font-size: 0.9em
+}
+.front .view-twitter-images {
+    margin-bottom: 15px;
+}
+.node-type-article .field--name-field-image,
+.node-type-paper-of-the-month .field--name-field-image {
+    max-width: 100%;
+    height: auto;
+    margin: 0 0 20px 0;
+}
+@media (min-width: 740px) {
+    .node-type-article .field--name-field-image,
+    .node-type-paper-of-the-month .field--name-field-image {
+        max-width: 50%;
+        height: auto;
+        float: right;
+        margin: 8px 0 20px 20px;
+    }
+}
+.node-type-article .field--name-field-image-gallery,
+.node-type-exhibition .field--name-field-image-gallery {
+    margin-bottom: 20px;
+}
+.node-type-article .field--name-field-image-gallery .field__items,
+.node-type-exhibition .field--name-field-image-gallery .field__items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+.node-type-article .field--name-field-image-gallery .field__item,
+.node-type-exhibition .field--name-field-image-gallery .field__item {
+    flex-basis: auto;
+    margin: 5px;
+}
+.views-field-gazette {
+        margin: 20px 0 0 0;
+    }
+@media (min-width: 740px) {
+    .views-field-gazette {
+        margin: 20px 0 0 190px;
+    }
+}
+@media (min-width: 960px) {
+    .views-field-gazette {
+        margin: 20px 0 0 150px;
+    }
+}
+@media (min-width: 1200px) {
+    .views-field-gazette {
+        margin: 20px 0 0 190px;
+    }
+}
+.views-field-gazette a {
+    background: #5d538b;
+    color: #fff !important;
+}

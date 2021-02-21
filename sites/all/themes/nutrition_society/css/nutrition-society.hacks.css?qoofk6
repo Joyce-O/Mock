@@ -1,0 +1,27 @@
+@media all and (max-width: 800px) {
+  /* line 3, ../sass/nutrition-society.hacks.scss */
+  #toolbar, #admin-menu {
+    display: none; }
+
+  /* line 7, ../sass/nutrition-society.hacks.scss */
+  html body.toolbar, html body.admin-menu {
+    padding-top: 0 !important;
+    margin-top: 0 !important; } }
+/* line 15, ../sass/nutrition-society.hacks.scss */
+.node-type-publication .l-content {
+  padding-bottom: 40px; }
+
+/* line 21, ../sass/nutrition-society.hacks.scss */
+.field--name-field-queries .field__label {
+  padding-bottom: 0 !important; }
+
+/* line 28, ../sass/nutrition-society.hacks.scss */
+.tb-megamenu-item--about .tb-megamenu-submenu,
+.tb-megamenu-item--grants-awards .tb-megamenu-submenu {
+  display: none; }
+
+/* line 34, ../sass/nutrition-society.hacks.scss */
+.form-item-pass-pass1 label {
+  display: none; }
+
+/*# sourceMappingURL=nutrition-society.hacks.css.map */
