@@ -232,12 +232,12 @@ body {top:0 !important;}
       <div class="view-content">
         <div class="views-row views-row-1 views-row-odd views-row-first">
       
-  <div class="views-field views-field-field-image">        <div class="field-content"><a href="/publications/textbooks"><img typeof="foaf:Image" src="https://www.nutritionsociety.org/sites/default/files/styles/simplecrop__600_x_350/public/taxonomy/images/untitled_design-4.png?itok=Rx9tg3iY&amp;sc=b243f3f6fe914583a7f1ea1ebfbdea56" width="600" height="400" alt="" /></a></div>  </div>  
+  <div class="views-field views-field-field-image">        <div class="field-content"><a href="/publications/textbooks"><img typeof="foaf:Image" src="https://www.nutritionsociety.org/sites/default/files/styles/simplecrop__600_x_350/public/taxonomy/images/untitled_design-4.png?=Rx9tg3iY&amp;sc=b243f3f6fe914583a7f1ea1ebfbdea56" width="600" height="400" alt="" /></a></div>  </div>  
   <div class="views-field views-field-name">        <span class="field-content"><a href="/publications/textbooks">Textbooks</a></span>  </div>  
   <div class="views-field views-field-description">        <div class="field-content"><p>A series of six fully peer-reviewed textbooks published by Wiley-Blackwell on behalf of the Society.  </p></div>  </div>  </div>
   <div class="views-row views-row-2 views-row-even views-row-last">
       
-  <div class="views-field views-field-field-image">        <div class="field-content"><a href="/publications/journals"><img typeof="foaf:Image" src="https://www.nutritionsociety.org/sites/default/files/styles/simplecrop__600_x_350/public/taxonomy/images/untitled_design-3.png?itok=edCK3Kug&amp;sc=5275aafa5545d39f69647367f554126d" width="600" height="400" alt="" /></a></div>  </div>  
+  <div class="views-field views-field-field-image">        <div class="field-content"><a href="/publications/journals"><img typeof="foaf:Image" src="https://www.nutritionsociety.org/sites/default/files/styles/simplecrop__600_x_350/public/taxonomy/images/untitled_design-3.png?=edCK3Kug&amp;sc=5275aafa5545d39f69647367f554126d" width="600" height="400" alt="" /></a></div>  </div>  
   <div class="views-field views-field-name">        <span class="field-content"><a href="/publications/journals">Journals</a></span>  </div>  
   <div class="views-field views-field-description">        <div class="field-content"><p>The Nutrition Society has six scientific journals which are published by Cambridge University Press. </p></div>  </div>  </div>
     </div>

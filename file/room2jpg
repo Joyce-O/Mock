@@ -228,7 +228,7 @@ body {top:0 !important;}
       
   
   <div class="content">
-    <img typeof="foaf:Image" src="https://www.nutritionsociety.org/sites/default/files/styles/large/public/room2.jpg?itok=SmCuV8wr" width="480" height="360" alt="Leeds University" title="Leeds University" />  </div>
+    <img typeof="foaf:Image" src="https://www.nutritionsociety.org/sites/default/files/styles/large/public/room2.jpg?=SmCuV8wr" width="480" height="360" alt="Leeds University" title="Leeds University" />  </div>
 
   
 </div>

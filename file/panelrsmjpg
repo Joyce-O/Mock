@@ -228,7 +228,7 @@ body {top:0 !important;}
       
   
   <div class="content">
-    <img typeof="foaf:Image" src="https://www.nutritionsociety.org/sites/default/files/styles/large/public/panelrsm.jpg?itok=O2y4xVRT" width="480" height="320" alt="Panel speakers" title="Panel speakers" />  </div>
+    <img typeof="foaf:Image" src="https://www.nutritionsociety.org/sites/default/files/styles/large/public/panelrsm.jpg?=O2y4xVRT" width="480" height="320" alt="Panel speakers" title="Panel speakers" />  </div>
 
   
 </div>

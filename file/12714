@@ -228,7 +228,7 @@ body {top:0 !important;}
       
   
   <div class="content">
-    <img typeof="foaf:Image" src="https://www.nutritionsociety.org/sites/default/files/styles/large/public/skills_gap.png?itok=isVjr2i7" width="480" height="220" alt="The skills gap" title="The skills gap" />  </div>
+    <img typeof="foaf:Image" src="https://www.nutritionsociety.org/sites/default/files/styles/large/public/skills_gap.png?=isVjr2i7" width="480" height="220" alt="The skills gap" title="The skills gap" />  </div>
 
   
 </div>

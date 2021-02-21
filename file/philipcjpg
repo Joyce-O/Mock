@@ -228,7 +228,7 @@ body {top:0 !important;}
       
   
   <div class="content">
-    <img typeof="foaf:Image" src="https://www.nutritionsociety.org/sites/default/files/styles/large/public/philip_c.jpg?itok=we6nMm0y" width="320" height="320" alt="President Philip Calder" title="President Philip Calder" />  </div>
+    <img typeof="foaf:Image" src="https://www.nutritionsociety.org/sites/default/files/styles/large/public/philip_c.jpg?=we6nMm0y" width="320" height="320" alt="President Philip Calder" title="President Philip Calder" />  </div>
 
   
 </div>

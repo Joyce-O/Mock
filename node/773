@@ -243,7 +243,7 @@ body {top:0 !important;}
   
   
   <div class="node__content">
-    <div class="field field--name-field-image field--type-image field--label-hidden"><div class="field__items"><div class="field__item even"><img typeof="foaf:Image" src="https://www.nutritionsociety.org/sites/default/files/styles/features_node/public/letter_1.v1.png?itok=UQLx7Dr7&amp;sc=bb9904e20b7fff9b4cde8a6bf6fdaff1" width="425" height="212" alt="Behind the scenes of an organising committee" /></div></div></div><div class="field field--name-field-headshot field--type-image field--label-hidden"><div class="field__items"><div class="field__item even"><img typeof="foaf:Image" src="https://www.nutritionsociety.org/sites/default/files/styles/author_thumb/public/carrie.jpg?itok=u3YrRCf_&amp;sc=42c113581c6582b25b1b0ad454df3c5a" width="80" height="80" alt="Dr Carrie Ruxton" /></div></div></div><div class="field field--name-field-feature-date field--type-datetime field--label-hidden"><div class="field__items"><div class="field__item even"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2019-06-27T00:00:00+01:00">27 June 2019</span></div></div></div><div class="field field--name-field-author-name field--type-text field--label-hidden"><div class="field__items"><div class="field__item even">Dr Carrie Ruxton</div></div></div><div class="field field--name-field-author-title field--type-text field--label-hidden"><div class="field__items"><div class="field__item even">Dr Carrie Ruxton, Honorary Strategic Communications Officer</div></div></div><div class="field field--name-body field--type-text-with-summary field--label-hidden"><div class="field__items"><div class="field__item even" property="content:encoded"><p><span><span><span><span lang="EN-US" xml:lang="EN-US" xml:lang="EN-US"><span><span>The trio of documents featured in this blog follow a paper trail to evidence skillful communication sensitively and pragmatically handled by organizing committees. These documents relate to the Second European Nutrition Conference, Munich, 1976.</span></span></span></span></span></span></p>
+    <div class="field field--name-field-image field--type-image field--label-hidden"><div class="field__items"><div class="field__item even"><img typeof="foaf:Image" src="https://www.nutritionsociety.org/sites/default/files/styles/features_node/public/letter_1.v1.png?=UQLx7Dr7&amp;sc=bb9904e20b7fff9b4cde8a6bf6fdaff1" width="425" height="212" alt="Behind the scenes of an organising committee" /></div></div></div><div class="field field--name-field-headshot field--type-image field--label-hidden"><div class="field__items"><div class="field__item even"><img typeof="foaf:Image" src="https://www.nutritionsociety.org/sites/default/files/styles/author_thumb/public/carrie.jpg?=u3YrRCf_&amp;sc=42c113581c6582b25b1b0ad454df3c5a" width="80" height="80" alt="Dr Carrie Ruxton" /></div></div></div><div class="field field--name-field-feature-date field--type-datetime field--label-hidden"><div class="field__items"><div class="field__item even"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2019-06-27T00:00:00+01:00">27 June 2019</span></div></div></div><div class="field field--name-field-author-name field--type-text field--label-hidden"><div class="field__items"><div class="field__item even">Dr Carrie Ruxton</div></div></div><div class="field field--name-field-author-title field--type-text field--label-hidden"><div class="field__items"><div class="field__item even">Dr Carrie Ruxton, Honorary Strategic Communications Officer</div></div></div><div class="field field--name-body field--type-text-with-summary field--label-hidden"><div class="field__items"><div class="field__item even" property="content:encoded"><p><span><span><span><span lang="EN-US" xml:lang="EN-US" xml:lang="EN-US"><span><span>The trio of documents featured in this blog follow a paper trail to evidence skillful communication sensitively and pragmatically handled by organizing committees. These documents relate to the Second European Nutrition Conference, Munich, 1976.</span></span></span></span></span></span></p>
 
 <p><strong><span><span><span><span lang="EN-US" xml:lang="EN-US" xml:lang="EN-US"><span><span>1) Letter dated 18 February 1974 from Professor Nepomuk Zöllner to Professor Gaston Lennox Pawan</span></span></span></span></span></span></strong></p>
 
@@ -255,7 +255,7 @@ body {top:0 !important;}
     
   
   <div class="content">
-    <img alt="Letter" title="Letter" class="media-element file-half-width" data-delta="1" typeof="foaf:Image" src="https://www.nutritionsociety.org/sites/default/files/styles/large/public/letter_1.png?itok=VzK0xfVo" width="336" height="480" />  </div>
+    <img alt="Letter" title="Letter" class="media-element file-half-width" data-delta="1" typeof="foaf:Image" src="https://www.nutritionsociety.org/sites/default/files/styles/large/public/letter_1.png?=VzK0xfVo" width="336" height="480" />  </div>
 
   
 </div>
@@ -273,7 +273,7 @@ body {top:0 !important;}
     
   
   <div class="content">
-    <img alt="Register of attendance" title="Register of attendance" class="media-element file-half-width" data-delta="2" typeof="foaf:Image" src="https://www.nutritionsociety.org/sites/default/files/styles/large/public/registerfinal.png?itok=Gu8AG1JR" width="385" height="480" />  </div>
+    <img alt="Register of attendance" title="Register of attendance" class="media-element file-half-width" data-delta="2" typeof="foaf:Image" src="https://www.nutritionsociety.org/sites/default/files/styles/large/public/registerfinal.png?=Gu8AG1JR" width="385" height="480" />  </div>
 
   
 </div>
@@ -291,7 +291,7 @@ body {top:0 !important;}
     
   
   <div class="content">
-    <img alt="Second invitation for the Second European Nutrition Conference" title="Second invitation for the Second European Nutrition Conference" class="media-element file-half-width" data-delta="3" typeof="foaf:Image" src="https://www.nutritionsociety.org/sites/default/files/styles/large/public/eunutcon.png?itok=zga0cc6Y" width="381" height="480" />  </div>
+    <img alt="Second invitation for the Second European Nutrition Conference" title="Second invitation for the Second European Nutrition Conference" class="media-element file-half-width" data-delta="3" typeof="foaf:Image" src="https://www.nutritionsociety.org/sites/default/files/styles/large/public/eunutcon.png?=zga0cc6Y" width="381" height="480" />  </div>
 
   
 </div>

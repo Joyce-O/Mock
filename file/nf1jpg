@@ -228,7 +228,7 @@ body {top:0 !important;}
       
   
   <div class="content">
-    <img typeof="foaf:Image" src="https://www.nutritionsociety.org/sites/default/files/styles/large/public/nf_1.jpg?itok=uCcOC79M" width="480" height="360" alt="Career Panel" title="Career Panel" />  </div>
+    <img typeof="foaf:Image" src="https://www.nutritionsociety.org/sites/default/files/styles/large/public/nf_1.jpg?=uCcOC79M" width="480" height="360" alt="Career Panel" title="Career Panel" />  </div>
 
   
 </div>

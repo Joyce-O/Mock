@@ -232,7 +232,7 @@ body {top:0 !important;}
       <div class="view-content">
         <div class="views-row views-row-1 views-row-odd views-row-first node-preview node-preview--events column--3">
       
-  <div class="views-field views-field-field-image">        <div class="field-content"><a href="/events/spring-conference-2021-gut-microbiome-and-health"><img typeof="foaf:Image" src="https://www.nutritionsociety.org/sites/default/files/styles/small_preview/public/images/event/untitled_design_22.png?itok=vPEWshMj" width="280" height="180" alt="" /></a></div>  </div>  
+  <div class="views-field views-field-field-image">        <div class="field-content"><a href="/events/spring-conference-2021-gut-microbiome-and-health"><img typeof="foaf:Image" src="https://www.nutritionsociety.org/sites/default/files/styles/small_preview/public/images/event/untitled_design_22.png?=vPEWshMj" width="280" height="180" alt="" /></a></div>  </div>  
   <div class="views-field views-field-field-event-type">        <div class="field-content"><a href="/events/conferences" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="" class="active">Conferences</a> </div>  </div>  
   <div class="views-field views-field-title">        <span class="field-content"><a href="/events/spring-conference-2021-gut-microbiome-and-health">Spring Conference 2021: Gut microbiome and health</a></span>  </div>  
   <div class="views-field views-field-field-date">        <span class="field-content"><div class="date-display-range"><span 
@@ -240,7 +240,7 @@ body {top:0 !important;}
         datatype="xsd:dateTime" content="2021-03-29BST09:30:00+01:00">29</span> - <span class="date-display-end" property="dc:date" datatype="xsd:dateTime" content="2021-03-30BST18:00:00+00:00">30 March 2021</span></div></span>  </div>  </div>
   <div class="views-row views-row-2 views-row-even views-row-last node-preview node-preview--events column--3">
       
-  <div class="views-field views-field-field-image">        <div class="field-content"><a href="/events/irish-section-conference-2021-nutrition-health-and-ageing-translating-science-practice"><img typeof="foaf:Image" src="https://www.nutritionsociety.org/sites/default/files/styles/small_preview/public/images/event/untitled_design.png?itok=zkPKbMrp" width="280" height="180" alt="" /></a></div>  </div>  
+  <div class="views-field views-field-field-image">        <div class="field-content"><a href="/events/irish-section-conference-2021-nutrition-health-and-ageing-translating-science-practice"><img typeof="foaf:Image" src="https://www.nutritionsociety.org/sites/default/files/styles/small_preview/public/images/event/untitled_design.png?=zkPKbMrp" width="280" height="180" alt="" /></a></div>  </div>  
   <div class="views-field views-field-field-event-type">        <div class="field-content"><a href="/events/conferences" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="" class="active">Conferences</a> </div>  </div>  
   <div class="views-field views-field-title">        <span class="field-content"><a href="/events/irish-section-conference-2021-nutrition-health-and-ageing-translating-science-practice">Irish Section Conference 2021: Nutrition, health and ageing - translating science into practice</a></span>  </div>  
   <div class="views-field views-field-field-date">        <span class="field-content"><div class="date-display-range"><span 

@@ -245,19 +245,19 @@ body {top:0 !important;}
       <div class="view-content">
         <div class="views-row views-row-1 views-row-odd views-row-first">
       
-  <div class="views-field views-field-field-image">        <div class="field-content"><a href="/events/obesity-series"><img typeof="foaf:Image" src="https://www.nutritionsociety.org/sites/default/files/styles/event/public/images/event/istock-1190534348_1.jpg?itok=z_8cJxBH" width="300" height="200" alt="" /></a></div>  </div>  
+  <div class="views-field views-field-field-image">        <div class="field-content"><a href="/events/obesity-series"><img typeof="foaf:Image" src="https://www.nutritionsociety.org/sites/default/files/styles/event/public/images/event/istock-1190534348_1.jpg?=z_8cJxBH" width="300" height="200" alt="" /></a></div>  </div>  
   <div class="views-field views-field-title">        <span class="field-content"><a href="/events/obesity-series">The Obesity Series </a></span>  </div>  
   <div class="views-field views-field-field-location">        <div class="field-content">United Kingdom</div>  </div>  
   <div class="views-field views-field-field-date">        <div class="field-content"><div class="date-display-range"><span class="date-display-start" property="dc:date" datatype="xsd:dateTime" content="2020-12-08T15:00:00+00:00">8 December 2020</span> to <span class="date-display-end" property="dc:date" datatype="xsd:dateTime" content="2021-03-31T18:00:00+01:00">31 March 2021</span></div></div>  </div>  </div>
   <div class="views-row views-row-2 views-row-even">
       
-  <div class="views-field views-field-field-image">        <div class="field-content"><a href="/events/uk-national-diet-and-nutrition-survey-year-9-11-update"><img typeof="foaf:Image" src="https://www.nutritionsociety.org/sites/default/files/styles/event/public/images/event/aisle-3105629_1280.jpg?itok=NUFX54oZ" width="300" height="200" alt="" /></a></div>  </div>  
+  <div class="views-field views-field-field-image">        <div class="field-content"><a href="/events/uk-national-diet-and-nutrition-survey-year-9-11-update"><img typeof="foaf:Image" src="https://www.nutritionsociety.org/sites/default/files/styles/event/public/images/event/aisle-3105629_1280.jpg?=NUFX54oZ" width="300" height="200" alt="" /></a></div>  </div>  
   <div class="views-field views-field-title">        <span class="field-content"><a href="/events/uk-national-diet-and-nutrition-survey-year-9-11-update">UK National Diet and Nutrition Survey, year 9-11 update</a></span>  </div>  
   <div class="views-field views-field-field-location">        <div class="field-content">United Kingdom</div>  </div>  
   <div class="views-field views-field-field-date">        <div class="field-content"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2021-02-25T12:00:00+00:00">25 February 2021</span></div>  </div>  </div>
   <div class="views-row views-row-3 views-row-odd views-row-last">
       
-  <div class="views-field views-field-field-image">        <div class="field-content"><a href="/events/nutrition-immunity-and-covid-19-update"><img typeof="foaf:Image" src="https://www.nutritionsociety.org/sites/default/files/styles/event/public/images/event/fruit-700006_1920.jpg?itok=3-As0vlH" width="300" height="200" alt="" /></a></div>  </div>  
+  <div class="views-field views-field-field-image">        <div class="field-content"><a href="/events/nutrition-immunity-and-covid-19-update"><img typeof="foaf:Image" src="https://www.nutritionsociety.org/sites/default/files/styles/event/public/images/event/fruit-700006_1920.jpg?=3-As0vlH" width="300" height="200" alt="" /></a></div>  </div>  
   <div class="views-field views-field-title">        <span class="field-content"><a href="/events/nutrition-immunity-and-covid-19-update">Nutrition, immunity and COVID-19 (UPDATE)</a></span>  </div>  
   <div class="views-field views-field-field-location">        <div class="field-content">United Kingdom</div>  </div>  
   <div class="views-field views-field-field-date">        <div class="field-content"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2021-03-03T12:00:00+00:00">3 March 2021</span></div>  </div>  </div>

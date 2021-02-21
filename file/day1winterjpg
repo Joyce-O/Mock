@@ -228,7 +228,7 @@ body {top:0 !important;}
       
   
   <div class="content">
-    <img typeof="foaf:Image" src="https://www.nutritionsociety.org/sites/default/files/styles/large/public/day_1_winter.jpg?itok=PxkuAe0I" width="480" height="320" alt="Delegates" title="Delegates" />  </div>
+    <img typeof="foaf:Image" src="https://www.nutritionsociety.org/sites/default/files/styles/large/public/day_1_winter.jpg?=PxkuAe0I" width="480" height="320" alt="Delegates" title="Delegates" />  </div>
 
   
 </div>
